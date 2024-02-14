@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana;
+    background-color: #111111;
+    color: #F7F7F7;
+}
+
+h1 {
+    font-family: "Francois";
+    font-size: 6rem;
+    color: #111111;
+    line-height: 10rem;
+}
+
+.h1 {
+    background-color: #F7F7F7;
+}
+
+h2 {
+    font-family: "Francois";
+    font-size: 3rem;
+}
+
+.bold {
+    font-size: 5rem;
+}
+
+.serif {
+    font-family: "Lora";
+    font-size: 2.5rem;
+}

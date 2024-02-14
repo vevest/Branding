@@ -10,3 +10,8 @@
     src: url(Francois_One/FrancoisOne-Regular.ttf);
   }
 
+@font-face {
+    font-family: "Lora";
+    src: url(Lora/static/Lora-SemiBoldItalic.ttf);
+}
+
