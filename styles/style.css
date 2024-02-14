@@ -7,6 +7,42 @@ body {
     font-family: Verdana;
     background-color: #111111;
     color: #F7F7F7;
+    letter-spacing: 0.2rem;
+}
+
+.cta {
+    background-color: #F7F7F7;
+    padding: .5rem 1rem;
+    color: #111111;
+    border-radius: .5rem;
+    width: fit-content;
+    font-family: "Lora";
+    font-size: 1.6rem;
+}
+
+.cta:hover {
+    background-color: #F996D7;
+    cursor: pointer;
+}
+
+.cta:active {
+    background-color: #2867e3
+}
+
+.button {
+    color: #F7F7F7;
+}
+
+.button:hover {
+    color: #F996D7;
+}
+
+.button:active {
+    color: #2867e3;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -14,15 +50,13 @@ h1 {
     font-size: 6rem;
     color: #111111;
     line-height: 10rem;
-}
-
-.h1 {
-    background-color: #F7F7F7;
+    letter-spacing: 0.6rem;
 }
 
 h2 {
     font-family: "Francois";
     font-size: 3rem;
+    letter-spacing: 0.125rem;
 }
 
 .bold {
@@ -32,4 +66,257 @@ h2 {
 .serif {
     font-family: "Lora";
     font-size: 2.5rem;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 2rem;
+}
+
+.topmenu-links {
+    display: flex;
+    list-style-type: none;
+    font-family: "Francois";
+    font-size: 1rem;
+}
+
+.topmenu-links a {
+    padding: 2rem;
+    color: #F7F7F7;
+}
+
+.topmenu-links a:hover {
+    color: #F996D7;
+}
+
+.topmenu-links a:active {
+    color: #2867e3;
+}
+
+/* LANDING */
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.h1 {
+    background-color: #F7F7F7;
+}
+
+
+/* BRANDING */
+.container2 {
+    display: flex;
+    padding: 5rem 12rem;
+}
+
+.container2 h2 {
+    display: flex; /* den driller og gider ikke være på én linje */
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+}
+
+.branding p {
+    padding: 2rem 5rem 2rem 0rem;
+}
+
+.img1 {
+    padding: 2rem;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    margin-top: 10rem;
+}
+
+/* PORTFOLIO */
+.container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.container3 h2 {
+    padding-left: 5rem;
+}
+
+.img-scroll {
+    padding: 4rem 0 2rem 0;
+}
+
+div.img-scroll1 {
+    overflow: hidden; /* har valgt hidden for at gemme scrollbar, men af samme grund fungerer scroll ikke */
+    white-space: nowrap;
+    direction: rtl;
+    padding-bottom: 2rem;
+}
+  
+div.img-scroll1 img {
+    padding-right: 2rem;
+    border-radius: .5rem;
+    width: 14.5rem;
+    height: 8rem;
+    object-fit: cover;
+  }
+
+div.img-scroll2 {
+    overflow: hidden; /* samme her, skal fikses somehow */
+    white-space: nowrap;
+}
+  
+div.img-scroll2 img {
+    padding-right: 2rem;
+    border-radius: .5rem;
+    width: 35rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.container3 .button  {
+    display: flex;
+    justify-content: center;
+}
+
+/* SERVICES */
+.container4 {
+    padding: 5rem 0;
+}
+
+.container4 h2 {
+    padding-left: 5rem;
+}
+
+.container4 p {
+    padding: 0 5rem 0 5rem;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: #111111;
+}
+
+.container4 h3 {
+    padding-top: 2rem;
+}
+
+h3 .francois {
+    font-family: "Francois";
+    font-size: 2rem;
+}
+
+h3 .serif {
+    font-size: 1.75rem;
+}
+
+.services p {
+    padding: 1rem 2rem 0 2rem;
+}
+
+.box {
+    background-color: #dfdbd5;
+    width: 16.5rem;
+    height: 20rem;
+    border-radius: .5rem;
+    margin: 1.5rem;
+}
+
+.container4 .button {
+    display: flex;
+    justify-content: center;
+}
+
+/* THE TEAM */
+.container5 {
+    padding: 5rem 5rem;
+    display: flex;
+}
+
+.img4 {
+    width: 45rem;
+    height: 30;
+    object-fit: cover;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.container5 .button {
+    text-align: right;
+    padding-top: 2rem;
+}
+
+/* CONTACT */
+.container6 {
+    display: flex;
+    padding: 5rem 12rem;
+}
+
+.contact {
+    padding-right: 3rem;
+    text-align: justify;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], textarea, select {
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: #333231;
+    color: #dfdbd5;
+    border: none;
+    width: 24rem;
+    font-family: Verdana;
+    letter-spacing: .125rem;
+}
+
+input[type=text], textarea, select:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #dfdbd5;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+input[type=submit] {
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: #F7F7F7;
+    border: none;
+    color: #111111;
+    font-family: "lora";
+    font-size: 1.6rem;
+}
+
+input[type=submit]:hover {
+    background-color: #F996D7;
+    cursor: pointer;
+}
+
+input[type=submit]:active {
+    background-color: #2867e3;
 }

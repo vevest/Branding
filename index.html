@@ -11,8 +11,15 @@
 <body>
 
     <header>
-        <img src="img/logo.svg" alt="beyondbrandinglogo">
-      <nav></nav>
+        <a href="index.html"><img class="logo" src="img/logo.svg" alt="beyondbrandinglogo"></a>
+      <nav class="topmenu">
+        <ul class="topmenu-links">
+            <li> <a href="about.html">ABOUT</a></li> <!--husk class="active" eventuelt på andre sider-->
+            <li> <a href="service.html">SERVICES</a></li>
+            <li> <a href="portfolio.html">PORTFOLIO</a></li>
+            <li> <a href="contact.html">CONTACT</a></li>
+        </ol>
+      </nav>
 
     </header>
     <main>
@@ -25,15 +32,21 @@
         </section>
 
         <section class="container2">
-            <h2>
-                <span class="bold">BOLD,</span> INNOVATIVE, CREATIVE
-            </h2>
-            <p class="serif">branding</p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nulla, eos maiores expedita, harum provident repudiandae, hic magni vero neque amet. Assumenda non nam ad! Sapiente atque rerum corrupti voluptatum?
-            </p>
-            <div class="button1">
+            <div class="branding">
+                <h2>
+                    <span class="bold">BOLD,</span> INNOVATIVE, CREATIVE
+                </h2>
+                <h2 class="serif">branding</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nulla, eos maiores expedita, harum provident repudiandae, hic magni vero neque amet. Assumenda non nam ad! Sapiente atque rerum corrupti voluptatum?
+                </p>
+
+                <a class="cta">
+                    Tell us your big idea
+                </a> <!-- Skal det være link til en mail eller hvor fører den her knap til??-->
             </div>
+
             <img class="img1" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
         </section>
 
@@ -41,15 +54,31 @@
             <h2>
                 <span class="serif">portfolio</span> <span class="bold">WORK</span>
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt magni, maxime ut velit esse quis hic labore blanditiis, quaerat ea totam optio harum dolores. Praesentium voluptatem voluptates sunt dolorum impedit.
-            </p>
-            <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
-            <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
-            <img class="img4" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
-            <img class="img5" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
-            <div class="button2">
+
+            <div class="img-scroll">
+                <div class="img-scroll1">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img2" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                </div>
+                <div class="img-scroll2">
+                    <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                    <img class="img3" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif">
+                </div>
             </div>
+            <a href="portfolio.html" class="button">
+                < View all >
+            </a>
         </section>
 
         <section class="container4">
@@ -59,21 +88,72 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed est temporibus, illum necessitatibus deserunt error nesciunt debitis excepturi animi provident neque maiores sunt deleniti iste eveniet rerum tempore dolore?
             </p>
-            <div class="box box1 services"></div>
-            <div class="box box2 services"></div>
-            <div class="box box3 services"></div>
+
+            <div class="services">
+                <div class="box box1">
+                    <h3><span class="francois">BASIC</span> <br> <span class="serif">BUNDLE</span></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime a possimus obcaecati iure veritatis!</p>
+                </div>
+                <div class="box box2">
+                    <h3><span class="francois">STANDARD</span> <br> <span class="serif">BUNDLE</span></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime a possimus obcaecati iure veritatis!</p>
+                </div>
+                <div class="box box3">
+                    <h3><span class="francois">PREMIUM</span> <br> <span class="serif">BUNDLE</span></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime a possimus obcaecati iure veritatis!</p>
+                </div>
+            </div>
             
-            <div class="button3">
-            </div> <!-- er det bedst at bruge div eller a her?-->
+            <a href="service.html" class="button">
+                < Learn more >
+            </a>
 
         </section>
 
         <section class="container5">
-            <h2>
-                <span class="serif">meet the</span> <span class="bold">TEAM</span>
-            </h2>
+            <img class="img4" src="img/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.avif" alt="meet-the-team">
+
+            <div class="team">
+                <h2>
+                    <span class="serif">meet the</span> <span class="bold">TEAM</span>
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error soluta pariatur, amet nemo id, velit necessitatibus, veritatis quos ratione et ipsa. At sunt fugit consectetur nulla hic aliquid, incidunt maiores.</p>
+        
+                <a href="about.html" class="button">
+                    < Get to know us >
+                </a>
+            </div>
         </section>
 
+        <section class="container6">
+            <div class="contact">
+                <h2>
+                    <span class="serif">get in</span> <span class="bold">TOUCH</span>
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dolorum voluptas. Velit, id eligendi reiciendis quibusdam illum esse commodi hic nemo. Provident voluptatibus, reprehenderit sunt voluptatem ullam omnis tempore praesentium!
+                </p>
+            </div>
+
+            <div class="contactform">
+                <form action="action_page.php">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Your name">
+
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" placeholder="Your email">
+
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="How can we help you?" style="height: 12rem"></textarea>
+            
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
 
 
 
