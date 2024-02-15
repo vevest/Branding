@@ -157,6 +157,18 @@ footer p{
     margin-top: -16rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
     width: 65rem; /* størrelse på linjen */
 }
+
+.line2 {
+    display: flex;
+    justify-content: center; /* for at centrere den */
+}
+
+.blue-line2 {
+    position: absolute; /* placere den et fast sted på siden */
+    margin-top: -35rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
+    margin-left: 25rem;
+    width: 45rem; /* størrelse på linjen */
+}
 /* BLUE LINE END */
 
 /* BRANDING LANDING */
