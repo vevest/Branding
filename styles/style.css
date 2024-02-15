@@ -154,8 +154,8 @@ footer p{
 
 .blue-line {
     position: absolute; /* placere den et fast sted på siden */
-    margin-top: -23rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
-    width: 90rem; /* størrelse på linjen */
+    margin-top: -16rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
+    width: 65rem; /* størrelse på linjen */
 }
 /* BLUE LINE END */
 
@@ -165,10 +165,6 @@ footer p{
     padding-left: 5rem;
     padding-top: 12rem;
 }
-
-/* .container2 h2 {
-    display: flex; /* den driller og gider ikke være på én linje */
-
 
 .branding {
     display: flex;
