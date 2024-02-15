@@ -100,6 +100,10 @@ header {
     color: #2867e3;
 }
 
+.topmenu-links .active {
+    color: #F996D7;
+}
+
 /* LANDING */
 .container1 {
     display: flex;
@@ -298,7 +302,7 @@ input[type=text], textarea, select:focus {
     color: #dfdbd5;
     font-family: Verdana;
     font-style: italic;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 input[type=submit] {
