@@ -158,10 +158,14 @@ header {
 }
 
 div.img-scroll1 {
-    overflow: hidden; /* har valgt hidden for at gemme scrollbar, men af samme grund fungerer scroll ikke */
+    overflow: auto; /* har valgt hidden for at gemme scrollbar, men af samme grund fungerer scroll ikke */
     white-space: nowrap;
     direction: rtl;
     padding-bottom: 2rem;
+}
+
+.img-scroll1::-webkit-scrollbar {
+    display: none;
 }
   
 div.img-scroll1 img {
@@ -173,8 +177,12 @@ div.img-scroll1 img {
   }
 
 div.img-scroll2 {
-    overflow: hidden; /* samme her, skal fikses somehow */
+    overflow: auto; /* samme her, skal fikses somehow */
     white-space: nowrap;
+}
+
+.img-scroll2::-webkit-scrollbar {
+    display: none;
 }
   
 div.img-scroll2 img {
