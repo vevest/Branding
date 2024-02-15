@@ -154,6 +154,31 @@ header {
     margin-top: 20rem;
 }
 
+/*  FOOTER   */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    font-size: 10px;
+    column-gap: 16rem;
+    row-gap: 2rem;
+    margin: 2rem;
+}
+
+.footer-logo{
+    width: 8rem;
+}
+
+.footer-text{
+    grid-column: 2/3;
+}
+
+.footer-icon{
+    width: 2rem;
+    margin-top: 2rem;
+}
+
+
 /* PORTFOLIO LANDING */
 .container3 {
     display: flex;
