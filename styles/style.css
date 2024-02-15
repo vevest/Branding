@@ -26,7 +26,7 @@ body {
 }
 
 .cta:active {
-    background-color: #2867e3
+    background-color: #2867e3;
 }
 
 .button {
@@ -69,7 +69,6 @@ h2 {
 }
 
 /* HEADER */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -116,7 +115,7 @@ header {
 }
 
 
-/* BRANDING */
+/* BRANDING LANDING */
 .container2 {
     display: flex;
     padding: 5rem 12rem;
@@ -143,7 +142,7 @@ header {
     margin-top: 20rem;
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO LANDING */
 .container3 {
     display: flex;
     flex-direction: column;
@@ -191,7 +190,7 @@ div.img-scroll2 img {
     justify-content: center;
 }
 
-/* SERVICES */
+/* SERVICES LANDING */
 .container4 {
     padding: 5rem 0;
 }
@@ -242,7 +241,7 @@ h3 .serif {
     justify-content: center;
 }
 
-/* THE TEAM */
+/* THE TEAM LANDING */
 .container5 {
     padding: 5rem 5rem;
     display: flex;
@@ -266,7 +265,27 @@ h3 .serif {
     padding-top: 2rem;
 }
 
-/* CONTACT */
+/* CONTACT LANDING */
+.landing {
+    justify-content: center;
+}
+
+.container6 .landing {
+    flex-direction: column;
+}
+
+.paperplane {
+    padding-top: 4rem;
+    padding-left: 8rem;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+/* CONTACT PAGE */
 .container6 {
     display: flex;
     padding: 5rem 12rem;
