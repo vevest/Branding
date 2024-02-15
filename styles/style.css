@@ -70,7 +70,7 @@ p{
 
 .serif {
     font-family: "Lora";
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 /* HEADER */
@@ -108,26 +108,18 @@ header {
     color: #F996D7;
 }
 
-/* LANDING */
-.container1 {
-    display: flex;
-    justify-content: center;
-    padding: 5rem;
-}
-
-.h1 {
-    background-color: #F7F7F7;
-}
-
 /*  FOOTER   */
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items:center;
-    font-size: 10px;
     column-gap: 16rem;
     row-gap: 2rem;
     margin: 2rem;
+}
+
+footer p{
+    font-size: 10px;
 }
 
 .footer-logo{
@@ -141,6 +133,17 @@ footer{
 .footer-icon{
     width: 2rem;
     margin-top: 2rem;
+}
+
+/* LANDING */
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.h1 {
+    background-color: #F7F7F7;
 }
 
 /* BLUE LINE START */
@@ -159,28 +162,31 @@ footer{
 /* BRANDING LANDING */
 .container2 {
     display: flex;
-    padding: 5rem 12rem;
+    padding-left: 5rem;
+    padding-top: 12rem;
 }
 
-.container2 h2 {
+/* .container2 h2 {
     display: flex; /* den driller og gider ikke være på én linje */
-}
+
 
 .branding {
     display: flex;
     flex-direction: column;
 }
 
+
 .branding p {
     padding: 2rem 5rem 2rem 0rem;
+    max-width: 40rem;
 }
 
 .img1 {
     padding: 2rem;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: cover;
-    margin-top: 20rem;
+    margin-top: 12rem;
 }
 
 
@@ -192,7 +198,7 @@ footer{
 }
 
 .container3 h2 {
-    padding-left: 12.5rem;
+    padding-left: 5rem;
 }
 
 .img-scroll {
