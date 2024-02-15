@@ -62,6 +62,7 @@ h2 {
     font-family: "Francois";
     font-size: 2.5rem;
     letter-spacing: 0.125rem;
+    z-index: 24;
 }
 
 p{
@@ -69,6 +70,7 @@ p{
     font-size: 16px;
     letter-spacing: 2%;
 }
+
 .bold {
     font-size: 4.5rem;
 }
@@ -164,22 +166,11 @@ footer p{
 
 .blue-line {
     position: absolute; /* placere den et fast sted på siden */
-    margin-top: -16rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
-    width: 65rem; /* størrelse på linjen */
+    margin-top: -19rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
+    width: 75rem; /* størrelse på linjen */
     z-index: 1;
 }
 
-.line2 {
-    display: flex;
-    justify-content: center; /* for at centrere den */
-}
-
-.blue-line2 {
-    position: absolute; /* placere den et fast sted på siden */
-    margin-top: -35rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
-    margin-left: 25rem;
-    width: 45rem; /* størrelse på linjen */
-}
 /* BLUE LINE END */
 
 /* BRANDING LANDING */
@@ -206,6 +197,7 @@ footer p{
     height: 20rem;
     object-fit: cover;
     margin-top: 12rem;
+    z-index: 23;
 }
 
 
@@ -222,7 +214,9 @@ footer p{
 
 .img-scroll {
     padding: 4rem 0 2rem 0;
+    z-index: 22;
 }
+
 
 div.img-scroll1 {
     overflow: auto; /* har valgt hidden for at gemme scrollbar, men af samme grund fungerer scroll ikke */
@@ -309,6 +303,7 @@ h3 .serif {
     height: 20rem;
     border-radius: .5rem;
     margin: 1.5rem;
+    z-index: 20;
 }
 
 .container4 .button {
