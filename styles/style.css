@@ -119,6 +119,30 @@ header {
     background-color: #F7F7F7;
 }
 
+/*  FOOTER   */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    font-size: 10px;
+    column-gap: 16rem;
+    row-gap: 2rem;
+    margin: 2rem;
+}
+
+.footer-logo{
+    width: 8rem;
+}
+
+.footer-text{
+    grid-column: 2/3;
+}
+
+.footer-icon{
+    width: 2rem;
+    margin-top: 2rem;
+}
+
 /* BLUE LINE START */
 .line {
     display: flex;
@@ -159,30 +183,6 @@ header {
     margin-top: 20rem;
 }
 
-/*  FOOTER   */
-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items:center;
-    font-size: 10px;
-    column-gap: 16rem;
-    row-gap: 2rem;
-    margin: 2rem;
-}
-
-.footer-logo{
-    width: 8rem;
-}
-
-.footer-text{
-    grid-column: 2/3;
-}
-
-.footer-icon{
-    width: 2rem;
-    margin-top: 2rem;
-}
-
 
 /* PORTFOLIO LANDING */
 .container3 {
@@ -192,7 +192,7 @@ footer{
 }
 
 .container3 h2 {
-    padding-left: 5rem;
+    padding-left: 12.5rem;
 }
 
 .img-scroll {
@@ -203,7 +203,7 @@ div.img-scroll1 {
     overflow: auto; /* har valgt hidden for at gemme scrollbar, men af samme grund fungerer scroll ikke */
     white-space: nowrap;
     direction: rtl;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .img-scroll1::-webkit-scrollbar {
@@ -211,10 +211,10 @@ div.img-scroll1 {
 }
   
 div.img-scroll1 img {
-    padding-right: 2rem;
-    border-radius: .5rem;
-    width: 14.5rem;
-    height: 8rem;
+    padding-right: 1.5rem;
+    border-radius: 0.5rem;
+    width: 14rem;
+    height: 7rem;
     object-fit: cover;
   }
 
@@ -228,10 +228,10 @@ div.img-scroll2 {
 }
   
 div.img-scroll2 img {
-    padding-right: 2rem;
-    border-radius: .5rem;
-    width: 35rem;
-    height: 20rem;
+    padding-right: 1.5rem;
+    border-radius: 0.5rem;
+    width: 27rem;
+    height: 15rem;
     object-fit: cover;
 }
 
