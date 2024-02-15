@@ -114,6 +114,18 @@ header {
     background-color: #F7F7F7;
 }
 
+/* BLUE LINE START */
+.line {
+    display: flex;
+    justify-content: center; /* for at centrere den */
+}
+
+.blue-line {
+    position: absolute; /* placere den et fast sted på siden */
+    margin-top: -23rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
+    width: 90rem; /* størrelse på linjen */
+}
+/* BLUE LINE END */
 
 /* BRANDING LANDING */
 .container2 {
