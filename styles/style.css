@@ -12,7 +12,25 @@ body {
     background-color: #111111;
     color: #F7F7F7;
     letter-spacing: 0.2rem;
+    background-size: 7rem 7rem;
+    background-image:
+          linear-gradient(to right, rgb(249,150,215,20%) 1px, transparent 1px),
+          linear-gradient(to bottom, rgb(249,150,215,20%) 1px, transparent 1px);
 }
+
+/* BLUE LINE START */
+.line {
+    display: flex;
+    justify-content: center; /* for at centrere den */
+}
+
+.blue-line {
+    position: absolute; /* placere den et fast sted på siden */
+    margin-top: -19rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
+    width: 75rem; /* størrelse på linjen */
+    z-index: -1;
+}
+/* BLUE LINE END */
 
 .cta {
     background-color: #F7F7F7;
@@ -120,26 +138,49 @@ header {
     color: #F996D7;
 }
 
-/*  FOOTER   */
-footer{
+/* FOOTER */
+footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     justify-items:center;
     column-gap: 16rem;
-    row-gap: 2rem;
-    margin: 2rem;
+    background-color: #111111;
+    margin-top: 6rem;
 }
 
 footer p{
-    font-size: 10px;
+    font-size: .6rem;
 }
 
 .footer-logo{
     width: 8rem;
 }
 
-.footer-text{
-    grid-column: 2/3;
+.section1 {
+    grid-column: 1;
+    display: flex;
+    align-items: flex-end;
+    margin: 2rem;
+}
+
+.section2{
+    grid-column: 2;
+    margin: 2rem;
+}
+
+.section3{
+    grid-column: 3;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.socials {
+    grid-column: 3;
+    display: flex;
+    align-items: end;
 }
 
 .fa-brands {
@@ -158,25 +199,10 @@ footer p{
     background-color: #F7F7F7;
 }
 
-/* BLUE LINE START */
-.line {
-    display: flex;
-    justify-content: center; /* for at centrere den */
-}
-
-.blue-line {
-    position: absolute; /* placere den et fast sted på siden */
-    margin-top: -19rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
-    width: 75rem; /* størrelse på linjen */
-    z-index: 1;
-}
-
-/* BLUE LINE END */
-
 /* BRANDING LANDING */
 .container2 {
     display: flex;
-    padding-left: 5rem;
+    padding-left: 8rem;
     padding-top: 12rem;
 }
 
@@ -185,7 +211,6 @@ footer p{
     flex-direction: column;
 }
 
-
 .branding p {
     padding: 2rem 5rem 2rem 0rem;
     max-width: 40rem;
@@ -193,30 +218,33 @@ footer p{
 
 .img1 {
     padding: 2rem;
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
     object-fit: cover;
-    margin-top: 12rem;
-    z-index: 23;
 }
 
+.container2-img {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 8rem;
+    margin-top: 10rem;
+}
 
 /* PORTFOLIO LANDING */
 .container3 {
     display: flex;
     flex-direction: column;
-    padding: 5rem 0;
+    padding: 6rem 0;
 }
 
 .container3 h2 {
-    padding-left: 5rem;
+    padding-left: 8rem;
 }
 
 .img-scroll {
     padding: 4rem 0 2rem 0;
     z-index: 22;
 }
-
 
 div.img-scroll1 {
     overflow: auto; /* har valgt hidden for at gemme scrollbar, men af samme grund fungerer scroll ikke */
@@ -261,15 +289,15 @@ div.img-scroll2 img {
 
 /* SERVICES LANDING */
 .container4 {
-    padding: 5rem 0;
+    padding: 6rem 0;
 }
 
 .container4 h2 {
-    padding-left: 5rem;
+    padding-left: 8rem;
 }
 
 .container4 p {
-    padding: 0 5rem 0 5rem;
+    padding: 0 8rem 0 8rem;
 }
 
 .services {
@@ -313,7 +341,7 @@ h3 .serif {
 
 /* THE TEAM LANDING */
 .container5 {
-    padding: 5rem 5rem;
+    padding: 6rem 8rem;
     display: flex;
 }
 
@@ -342,6 +370,7 @@ h3 .serif {
 
 .container6 .landing {
     flex-direction: column;
+    padding: 6rem 0;
 }
 
 .paperplane {
@@ -353,6 +382,24 @@ h3 .serif {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
+}
+
+/* PORTFOLIO PAGE */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 6rem 8rem;
+    justify-content: center;
+}
+
+.img5 {
+    width: 100%;
+    margin-bottom: -.22rem;
+    opacity: 0.5;
+}
+
+.img5:hover {
+    opacity: 1;
 }
 
 /* CONTACT PAGE */
