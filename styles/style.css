@@ -142,6 +142,10 @@ footer p{
     grid-column: 2/3;
 }
 
+.addresse{
+    text-align: right;
+}
+
 .fa-brands {
     width: 2rem;
     margin-top: 2rem;
