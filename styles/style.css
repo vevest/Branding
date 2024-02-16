@@ -145,6 +145,7 @@ footer {
     justify-items:center;
     column-gap: 16rem;
     background-color: #111111;
+    margin-top: 6rem;
 }
 
 footer p{
@@ -201,7 +202,7 @@ footer p{
 /* BRANDING LANDING */
 .container2 {
     display: flex;
-    padding-left: 5rem;
+    padding-left: 8rem;
     padding-top: 12rem;
 }
 
@@ -210,7 +211,6 @@ footer p{
     flex-direction: column;
 }
 
-
 .branding p {
     padding: 2rem 5rem 2rem 0rem;
     max-width: 40rem;
@@ -218,30 +218,33 @@ footer p{
 
 .img1 {
     padding: 2rem;
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
     object-fit: cover;
-    margin-top: 12rem;
-    z-index: 23;
 }
 
+.container2-img {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 8rem;
+    margin-top: 10rem;
+}
 
 /* PORTFOLIO LANDING */
 .container3 {
     display: flex;
     flex-direction: column;
-    padding: 5rem 0;
+    padding: 6rem 0;
 }
 
 .container3 h2 {
-    padding-left: 5rem;
+    padding-left: 8rem;
 }
 
 .img-scroll {
     padding: 4rem 0 2rem 0;
     z-index: 22;
 }
-
 
 div.img-scroll1 {
     overflow: auto; /* har valgt hidden for at gemme scrollbar, men af samme grund fungerer scroll ikke */
@@ -286,15 +289,15 @@ div.img-scroll2 img {
 
 /* SERVICES LANDING */
 .container4 {
-    padding: 5rem 0;
+    padding: 6rem 0;
 }
 
 .container4 h2 {
-    padding-left: 5rem;
+    padding-left: 8rem;
 }
 
 .container4 p {
-    padding: 0 5rem 0 5rem;
+    padding: 0 8rem 0 8rem;
 }
 
 .services {
@@ -338,7 +341,7 @@ h3 .serif {
 
 /* THE TEAM LANDING */
 .container5 {
-    padding: 5rem 5rem;
+    padding: 6rem 8rem;
     display: flex;
 }
 
@@ -367,6 +370,7 @@ h3 .serif {
 
 .container6 .landing {
     flex-direction: column;
+    padding: 6rem 0;
 }
 
 .paperplane {
@@ -378,6 +382,24 @@ h3 .serif {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
+}
+
+/* PORTFOLIO PAGE */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 6rem 8rem;
+    justify-content: center;
+}
+
+.img5 {
+    width: 100%;
+    margin-bottom: -.22rem;
+    opacity: 0.5;
+}
+
+.img5:hover {
+    opacity: 1;
 }
 
 /* CONTACT PAGE */
