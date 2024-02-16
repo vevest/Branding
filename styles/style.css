@@ -217,14 +217,14 @@ footer p{
     max-width: 40rem;
 }
 
-.img1 {
+.video1 {
     padding: 2rem;
     width: 25rem;
     height: 25rem;
     object-fit: cover;
 }
 
-.container2-img {
+.container2-vid {
     display: flex;
     flex-direction: column-reverse;
     padding-right: 8rem;
