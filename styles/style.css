@@ -346,9 +346,17 @@ h3 .serif {
 }
 
 .img4 {
-    width: 45rem;
-    height: 30;
+    width: 35rem;
     object-fit: cover;
+
+}
+
+.overlay {
+    filter: opacity(0.5) drop-shadow(0 0 0 #F996D7);
+}
+
+.overlay:hover {
+    filter: opacity(1) drop-shadow(0 0 0);
 }
 
 .team {
