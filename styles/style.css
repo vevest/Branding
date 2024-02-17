@@ -116,9 +116,11 @@ header {
     align-items: center;
 }
 
+header a{
+    z-index: 198;
+}
 .logo {
     padding: 2rem;
-    z-index: 200;
 }
 
 .topmenu {
@@ -454,12 +456,24 @@ div.img-scroll2 img {
 
 .overskrift-about{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    padding-top: 20rem;
-    padding-left: 10rem;
+    align-items: center;
+    padding-top: 20%;
+    padding-left: 20%;
     padding-bottom: 15rem;
     color: var(--blue);
+    z-index: 199;
+}
+
+.speciel1{
+    font-family: 'Lora';
+    font-size: 40px;
+    opacity: 60%;
+}
+
+.speciel2{
+    font-family: 'Francois';
+    font-size: 100px;
+    font-weight:800;
 }
 
 .video2 {
@@ -526,7 +540,7 @@ div.img-scroll2 img {
     opacity: 0;
     position: absolute;
     top: 47.5%; 
-    left: 49%; 
+    left: 36.5%; 
     transform: translate(-50%, -48%); 
     background-color: var(--pink); 
     color: var(--grey); 
@@ -642,6 +656,7 @@ div.img-scroll2 img {
     padding-left: 10rem;
     padding-bottom: 8rem;
     padding-top: 8rem;
+    width: 100%;
 }
 
 .bluebox h2{
