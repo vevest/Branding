@@ -69,10 +69,9 @@ a {
 
 .back-to-top {
     position: fixed;
-    bottom: 3.5rem;
+    bottom: 2rem;
     right: 2rem;
     z-index: 150;
-    padding-bottom: 1rem;
     color: #F996D7;
     letter-spacing: 0;
     font-size: 1rem;
@@ -155,7 +154,7 @@ header a{
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items:center;
+    justify-items: center;
     column-gap: 16rem;
     background-color: #111111;
     margin-top: 6rem;
@@ -172,7 +171,8 @@ footer p{
 .section1 {
     grid-column: 1;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 2rem;
 }
 
@@ -185,15 +185,12 @@ footer p{
     grid-column: 3;
     text-align: right;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 2rem;
 }
 
 .socials {
     grid-column: 3;
     display: flex;
-    align-items: end;
 }
 
 .fa-brands {
@@ -400,7 +397,6 @@ div.img-scroll2 img {
 .img4 {
     width: 35rem;
     object-fit: cover;
-
 }
 
 .overlay {
@@ -424,32 +420,22 @@ div.img-scroll2 img {
 }
 
 /* CONTACT LANDING PAGE*/
-.landing {
-    justify-content: center;
-}
-
-.container6 .landing {
+.landing .contact  {
+    display: flex;
     flex-direction: column;
-    padding: 6rem 0;
-}
-
-.contact h2{
-   padding-left: 37%;
+    justify-content: center;
+    align-items: center;
 }
 
 .paperplane {
-    padding-top: 6rem;
-    padding-right: 46rem;
-    height: 25rem;
+    margin-top: 4rem;
+    margin-left: -12rem;
 }
-
 
 .contact-button {
     display: flex;
     justify-content: center;
     z-index: 30;
-    margin-top: -24rem;
-    padding-bottom: 13rem ;
 }
 
 /* About page*/
@@ -457,7 +443,7 @@ div.img-scroll2 img {
 .overskrift-about{
     position: absolute;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 20%;
     padding-bottom: 15rem;
     color: var(--blue);
@@ -488,6 +474,8 @@ div.img-scroll2 img {
 .container3-vid {
     display: fixed;
     margin-top: -150px;
+    position: absolute;
+    width: 100%;
 }
 
 
@@ -496,9 +484,10 @@ div.img-scroll2 img {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
     row-gap: 2rem;
-    padding-left: 12rem;
-    padding-right: 15rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
     padding-bottom: 10rem;
+    padding-top: 28rem;
 }
 
 .grid_1-1-1 img{
