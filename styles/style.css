@@ -523,25 +523,29 @@ div.img-scroll2 img {
     align-items: center;
 }
 
-.box {
+
+.about-box {
     margin-top: 2px;
     margin-left: 2px;
     width: 230px;
     height: 230px;
+    border: #F996D7 solid 1px;
     border-radius: 0;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
-.box:hover {
+.about-box:hover {
     background-color: rgb(247,247,247, .5);
     border: none;
     top: -10px;
     color: #111111;
 }
 
-.service-btn {
+.about-service-btn {
     display: flex;
     justify-content: center;
     border: #F996D7 solid 1px;
@@ -551,9 +555,11 @@ div.img-scroll2 img {
     font-family: 'francois';
     margin-top: 2rem;
     letter-spacing: .1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
-#service-btn:hover {
+#about-service-btn:hover {
     background-color: #F996D7;
     color: #111111;
 }
