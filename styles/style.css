@@ -538,6 +538,7 @@ div.img-scroll2 img {
 
 .overlay-text:hover{
     opacity: 90%;
+    transition: 0.5s;
 }
 
 .navn{
@@ -549,6 +550,7 @@ div.img-scroll2 img {
     font-family: 'Francois';
     font-weight: bold;
     font-size: 12px;
+    color: var(--white);
 }
 
 .email{
@@ -632,6 +634,23 @@ div.img-scroll2 img {
 #about-service-btn:hover {
     background-color: #F996D7;
     color: #111111;
+}
+
+.bluebox{
+    background-color: var(--blue);
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+}
+
+.bluebox h2{
+    padding-bottom: 1rem ;
+}
+
+.bluebox h3{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
 }
 
 
