@@ -75,6 +75,7 @@ a {
     color: #F996D7;
     letter-spacing: 0;
     font-size: 1rem;
+    font-family: 'Francois';
 }
 
 h1 {
@@ -428,7 +429,7 @@ div.img-scroll2 img {
 }
 
 .paperplane {
-    margin-top: 4rem;
+    margin-top: 8rem;
     margin-left: -12rem;
 }
 
