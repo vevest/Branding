@@ -69,13 +69,13 @@ a {
 
 .back-to-top {
     position: fixed;
-    bottom: 1px;
-    right: 2rem;
+    bottom: 4rem;
+    right: 5rem;
     z-index: 150;
-    padding: 1rem;
+    padding-bottom: 1rem;
     color: #F996D7;
     letter-spacing: 0;
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
 h1 {
@@ -431,16 +431,20 @@ div.img-scroll2 img {
     padding: 6rem 0;
 }
 
+.contact h2{
+   padding-left: 37%;
+}
+
 .paperplane {
     padding-top: 4rem;
-    padding-left: 8rem;
+    padding-right: 45rem;
+    height: 25rem;
 }
 
 
 .contact-button {
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
 }
 
 /* About page*/
@@ -452,17 +456,19 @@ div.img-scroll2 img {
     row-gap: 2rem;
     padding-left: 15rem;
     padding-right: 15rem;
+    padding-bottom: 10rem;
 }
 
 .grid_1-1-1 img{
     object-fit: cover;
-    height: 275px;
-    width: 275px;
+    height: 230px;
+    width: 230px;
 
 }
 .grid_1-1-1 h2{
     grid-column: 1/4;
     grid-row: 1/2;
+    padding-top: 10rem;
 }
 
 /* PORTFOLIO PAGE */
