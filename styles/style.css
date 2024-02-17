@@ -309,35 +309,73 @@ div.img-scroll2 img {
     color: #111111;
 }
 
+.package {
+    font-family: 'francois';
+    color: #F7F7F7;
+    font-size: .5rem;
+    margin-bottom: .5rem;
+}
+
 .container4 h3 {
-    padding-top: 2rem;
-}
-
-h3 .francois {
-    font-family: "Francois";
-    font-size: 2rem;
-}
-
-h3 .serif {
+    font-family: 'Francois';
+    color: #F7F7F7;
     font-size: 1.75rem;
 }
 
-.services p {
+.services li {
     padding: 1rem 2rem 0 2rem;
+    color: #F7F7F7;
+    font-family: 'verdana';
+    font-size: .75rem;
+    letter-spacing: 0;
+    list-style-position: inside;
+    margin-right: 2.75rem;
 }
 
 .box {
-    background-color: #dfdbd5;
     width: 16.5rem;
     height: 20rem;
     border-radius: .5rem;
     margin: 1.5rem;
     z-index: 20;
+    border: #F996D7 solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
-.container4 .button {
+.box:hover {
+    background-color: rgb(247,247,247, .5);
+    border: none;
+    top: -10px;
+    color: #111111;
+}
+
+.box:hover > .service-btn {
+    background-color: #F7F7F7;
+    border: none;
+    color: #111111;
+}
+
+.service-btn {
     display: flex;
     justify-content: center;
+    border: #F996D7 solid 1px;
+    border-radius: 2rem;
+    padding: .75rem 1.5rem;
+    font-size: .75rem;
+    font-family: 'francois';
+    margin-top: 2rem;
+    letter-spacing: .1rem;
+}
+
+#service-btn:hover {
+    background-color: #F996D7;
+    color: #111111;
 }
 
 /* THE TEAM LANDING */
