@@ -454,7 +454,7 @@ div.img-scroll2 img {
     padding-left: 20%;
     padding-bottom: 15rem;
     color: var(--blue);
-    z-index: 199;
+    z-index: 99;
 }
 
 .speciel1{
