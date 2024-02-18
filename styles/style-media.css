@@ -56,10 +56,6 @@
         width: 7rem;
     }
 
-    .logo {
-        z-index: 100;
-    }
-
     .burgermenu {
         z-index: 100;
     }
@@ -85,7 +81,7 @@
     left: 0%;
     z-index: 99;
     padding: 1rem;
-    padding-top: 8rem;
+    padding-top: 6rem;
     border-bottom: 1px solid #F996D7;
     width: 100%;
     opacity: 0; /* Usynlig indtil aktiveret */
