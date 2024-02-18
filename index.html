@@ -7,22 +7,37 @@
     <title>Landing page</title>
     <link rel="stylesheet" href="farverfont.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-media.css">
     <script src="https://kit.fontawesome.com/cdca0118d7.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <header>
-        <a class="logo" href="index.html"><img src="img/logo.svg" alt="beyondbrandinglogo"></a>
+        <a class="logo" href="index.html"><img class="header-logo" src="img/logo.svg" alt="beyondbrandinglogo"></a>
       <nav class="topmenu">
         <ul class="topmenu-links">
-            <li> <a href="about.html">ABOUT</a></li> <!--husk class="active" eventuelt på andre sider-->
+            <li> <a href="about.html">ABOUT</a></li>
             <li> <a href="service.html">SERVICES</a></li>
             <li> <a href="portfolio.html">PORTFOLIO</a></li>
             <li> <a href="contact.html">CONTACT</a></li>
-        </ol>
+        </ul>
       </nav>
-    </header>
 
+      <!-- dropdown menu mobil -->
+      <label for="menu-toggle" class="burgermenu" tabindex="0">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+      </label>
+    
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <nav class="dropdown">
+          <ul class="dropdown-links">
+            <li> <a href="about.html">ABOUT</a></li>
+            <li> <a href="service.html">SERVICES</a></li>
+            <li> <a href="portfolio.html">PORTFOLIO</a></li>
+            <li> <a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <!-- dropdown menu mobil slut -->
     </header>
 
     <main>
@@ -145,7 +160,7 @@
         </section>
 
         <section class="container5">
-            <div>
+            <div class="team-picture">
                 <img class="img4 overlay" title="overlay" src="img/team.png" alt="meet-the-team">
             </div>
 
@@ -161,13 +176,13 @@
             </div>
         </section>
 
-        <section class="container6 landing">
+        <section class="container6">
             <div class="contact">
                 <h2>
                     <span class="serif">don't be a stranger</span> <br> <span class="bold">GET IN TOUCH!</span>
                 </h2>
 
-                <div>
+                <div class="contact-button-container">
                     <a href="contact.html" class="button contact-button">
                         < Contact us >
                     </a>
@@ -193,15 +208,6 @@
         <section class="section1">
             <div>
                 <a href="#top" class="scroll-to-top"><img class="footer-logo" src="img/logo.svg" alt="beyondbrandinglogo"></img></a>
-            </div>
-
-            <div class="socials">
-                <a class="button" target=”_blank” href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>  
-                <a class="button" target=”_blank” href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                <a class="button" target=”_blank” href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
-                <a class="button" target=”_blank” href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-                <a class="button" target=”_blank” href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
-                <a class="button" target=”_blank” href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>       
             </div>
         </section>
 
@@ -234,6 +240,17 @@
                 <p>
                     hello@beyond.dk
                 </p>
+            </div>
+        </section>
+
+        <section class="section4">
+            <div class="socials">
+                <a class="button" target=”_blank” href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>  
+                <a class="button" target=”_blank” href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a class="button" target=”_blank” href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                <a class="button" target=”_blank” href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="button" target=”_blank” href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+                <a class="button" target=”_blank” href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>       
             </div>
         </section>
     </footer>

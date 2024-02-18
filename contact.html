@@ -7,6 +7,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="farverfont.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-media.css">
     <script src="https://kit.fontawesome.com/cdca0118d7.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,13 +20,30 @@
             <li> <a href="service.html">SERVICES</a></li>
             <li> <a href="portfolio.html">PORTFOLIO</a></li>
             <li> <a class="active" href="contact.html">CONTACT</a></li>
-        </ol>
+        </ul>
       </nav>
+
+            <!-- dropdown menu mobil -->
+            <label for="menu-toggle" class="burgermenu" tabindex="0">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+              </label>
+            
+              <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <nav class="dropdown">
+                  <ul class="dropdown-links">
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="service.html">SERVICES</a></li>
+                    <li> <a href="portfolio.html">PORTFOLIO</a></li>
+                    <li> <a class="active" href="contact.html">CONTACT</a></li>
+                  </ul>
+                </nav>
+                <!-- dropdown menu mobil slut -->
+
     </header>
 
     <main>
 
-      <section class="container6">
+      <section class="contact-container">
         <div class="contact">
             <h2>
                 <span class="serif">get in</span> <span class="bold">TOUCH</span>

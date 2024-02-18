@@ -96,7 +96,7 @@ h2 {
 
 p {
     font-family: Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 2%;
 }
 
@@ -116,9 +116,6 @@ header {
     align-items: center;
 }
 
-header a{
-    z-index: 198;
-}
 .logo {
     padding: 2rem;
 }
@@ -151,12 +148,16 @@ header a{
     color: #F996D7;
 }
 
+.menu-toggle {
+    display: none; /* gemmer checkbox */
+}
+
 /* FOOTER */
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    column-gap: 16rem;
+    column-gap: 6rem;
     background-color: #111111;
     margin-top: 6rem;
 }
@@ -171,10 +172,8 @@ footer p{
 
 .section1 {
     grid-column: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 2rem;
+    justify-self: left;
 }
 
 .section2{
@@ -185,12 +184,17 @@ footer p{
 .section3{
     grid-column: 3;
     text-align: right;
-    display: flex;
     margin: 2rem;
+    justify-self: right;
+}
+
+.section4 {
+    grid-column: 1;
+    margin: 2rem;
+    justify-self: left;
 }
 
 .socials {
-    grid-column: 3;
     display: flex;
 }
 
@@ -421,14 +425,16 @@ div.img-scroll2 img {
 }
 
 /* CONTACT LANDING PAGE*/
-.landing .contact  {
+.container6 .contact  {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 6rem;
 }
 
 .paperplane {
+    width: 120%;
     margin-top: 8rem;
     margin-left: -12rem;
 }
@@ -469,8 +475,6 @@ div.img-scroll2 img {
     filter: grayscale(100%);
     opacity: 70%;
 }
-
-
 
 .container3-vid {
     display: fixed;
@@ -678,7 +682,7 @@ div.img-scroll2 img {
 }
 
 /* CONTACT PAGE */
-.container6 {
+.contact-container {
     display: flex;
     padding: 5rem 12rem;
 }

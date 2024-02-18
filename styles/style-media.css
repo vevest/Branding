@@ -1,0 +1,340 @@
+/*MOBIL*/
+@media only screen and (max-width: 767px) {
+    
+    .cta {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 4rem;
+        letter-spacing: .25rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: .75rem;
+    }
+
+    .bold {
+        font-size: 2rem;
+    }
+
+    .serif {
+        font-size: 1.25rem;
+    }
+
+    .back-to-top {
+        position: fixed;
+        bottom: 2rem;
+        left: 2rem;
+        z-index: 150;
+        color: #F996D7;
+        letter-spacing: 0;
+        font-size: 1rem;
+        font-family: 'Francois';
+    }
+
+    /* header */
+    .topmenu {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-logo {
+        width: 7rem;
+    }
+
+    .logo {
+        z-index: 100;
+    }
+
+    .burgermenu {
+        z-index: 100;
+    }
+
+    .fa-bars {
+        cursor: pointer;
+        font-size: 2rem;
+        padding-right: 2rem;
+    }
+
+    .fa-bars:hover {
+        color: #F996D7;
+    }
+
+    .fa-bars:active {
+        color: #2867e3;
+    }
+
+    .dropdown {
+    background-color: #111111;
+    position: absolute;
+    top: 0%; /* nav menu dropdown position i forhold til header, 0% er top af header, 100% er bunden af header */
+    left: 0%;
+    z-index: 99;
+    padding: 1rem;
+    padding-top: 8rem;
+    border-bottom: 1px solid #F996D7;
+    width: 100%;
+    opacity: 0; /* Usynlig indtil aktiveret */
+    visibility: hidden; /* Usynlig indtil aktiveret */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Transition for opacity og visibility */
+    }
+
+    .menu-toggle:checked + .dropdown {
+        opacity: 1; /* Gør synlig når aktiveret */
+        visibility: visible; /* Gør synlig når aktiveret */
+    }
+
+    .dropdown-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        gap: 3rem;
+        list-style: none;
+        font-size: 1rem;
+        font-family: 'Francois';
+    }
+        
+    .dropdown-links a {
+        color: #f7f7f7;
+        text-decoration: none;
+    }
+        
+    .dropdown-links a:focus {
+        color: #ffffff;
+    }   
+        
+    .dropdown-links a:active {
+        color: #2867e3;
+    }   
+        
+    .dropdown-links li a.active {
+        color: #F996D7;
+    }
+
+    /* FOOTER */
+    footer {
+        column-gap: 0;
+        grid-template-rows: repeat(4, auto);
+        margin-top: 4rem;
+    }
+
+    footer p{
+        font-size: .5rem;
+    }
+
+    .section1 {
+        visibility: hidden;
+        width: 7rem;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: center;
+        align-items: center;
+        margin-top: -4rem;
+    }
+
+    .section2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        margin: 0;
+        margin-top: 2rem;
+    }
+    
+    .section3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin: 0;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+
+    .section4 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        justify-self: right;
+        margin: 0;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-text {
+        padding-left: 2rem;
+    }
+
+    .socials {
+        display: flex;
+    }
+    
+    .fa-brands {
+        width: 2rem;
+        margin-top: 2rem;
+        font-size: 1.25rem;
+    }
+
+    /* LANDING */
+    .blue-line {
+        padding-top: 18rem;
+    }
+
+    .container1 {
+        margin-top: 8rem;
+        padding: 8rem 0 14rem 0;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .branding h2 {
+        font-size: 1.25rem;
+        padding-left: 2rem;
+    }
+
+    .branding p {
+        text-align: justify;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .branding .cta {
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    .video1 {
+        padding: 0;
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .container2-vid {
+        padding: 0;
+        justify-self: center;
+        align-self: center;
+        margin-top: 5rem;
+    }
+    /* PORTFOLIO */
+    .container3 {
+        padding: 8rem 0;
+    }
+
+    .container3 h2 {
+        padding: 0 2rem;
+    }
+
+    .img-scroll {
+        padding-top: 2rem;
+    }
+
+    /* SERVICES */
+    .container4 {
+        padding: 8rem 0;
+    }
+
+    .container4 h2 {
+        padding: 0 2rem;
+    }
+
+    .container4 p {
+        padding: 0 2rem;
+        text-align: justify;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .box {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .box {
+        background-color: #F996D7;
+    }
+
+    .service-btn {
+        background-color: #f7f7f7;
+        color: #111111;
+    }
+
+    /* TEAM */
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .img4 {
+        width: 100%;
+        padding: 0;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .container5 .button {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    /* CONTACT */
+    .container6 {
+        padding: 0 2rem;
+    }
+
+    .container6 h2 {
+        padding: 0;
+    }
+
+    .container6 .bold  {
+        font-size: 2.25rem;
+    }
+
+    .paperplane {
+        width: 150%;
+        margin-top: 4rem;
+        margin-left: -6rem;
+    }
+
+    .contact-button {
+        padding-top: 4rem;
+    }
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 768px) {
+    .dropdown, .burgermenu {
+        display: none; /* gemmer burgermenu */
+    }
+}
