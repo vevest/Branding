@@ -360,7 +360,7 @@ div.img-scroll2 img {
 }
 
 .box:hover {
-    background-color: rgb(247,247,247, .5);
+    background-color: rgb(247,247,247, .7);
     border: none;
     top: -10px;
     color: #111111;
@@ -401,7 +401,7 @@ div.img-scroll2 img {
 }
 
 .overlay {
-    filter: opacity(0.5) drop-shadow(0 0 0 #F996D7);
+    filter: opacity(0.7) drop-shadow(0 0 0 #F996D7);
 }
 
 .overlay:hover {
