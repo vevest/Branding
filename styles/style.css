@@ -118,6 +118,7 @@ header {
 
 .logo {
     padding: 2rem;
+    z-index: 100;
 }
 
 .topmenu {
@@ -157,7 +158,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    column-gap: 6rem;
     background-color: #111111;
     margin-top: 6rem;
 }
@@ -190,12 +190,13 @@ footer p{
 
 .section4 {
     grid-column: 1;
-    margin: 2rem;
     justify-self: left;
 }
 
 .socials {
     display: flex;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
 
 .fa-brands {
@@ -446,7 +447,6 @@ div.img-scroll2 img {
 }
 
 /* About page*/
-
 .overskrift-about{
     position: absolute;
     align-items: center;
