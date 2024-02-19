@@ -167,11 +167,11 @@
     }
 
     .section4 {
-        grid-column-start: 3;
+        grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 5;
-        margin: 0;
+        margin-right: 2rem;
     }
 
     .footer-text {
@@ -181,11 +181,13 @@
     .socials {
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-end;
+        text-align: right;
     }
     
     .fa-brands {
         width: 2rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1.25rem;
     }
 
