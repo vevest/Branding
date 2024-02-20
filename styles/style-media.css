@@ -1,6 +1,5 @@
 /*MOBIL*/
-@media only screen and (max-width: 767px) {
-    
+@media only screen and (max-width: 1023px) {
     .cta {
         font-size: 1rem;
     }
@@ -172,6 +171,7 @@
         grid-row-start: 4;
         grid-row-end: 5;
         margin-right: 2rem;
+        justify-self: flex-end;
     }
 
     .footer-text {
@@ -192,10 +192,6 @@
     }
 
     /* LANDING */
-    .line {
-        overflow: hidden;
-    }
-
     .blue-line {
         padding-top: 18rem;
         width: 100%;
@@ -334,14 +330,14 @@
     }
 
     .paperplane {
-        width: 120%;
+        width: 100%;
         margin-top: 4rem;
         margin-left: -6rem;
     }
 }
 
 /*DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .dropdown, .burgermenu {
         display: none; /* gemmer burgermenu */
     }
