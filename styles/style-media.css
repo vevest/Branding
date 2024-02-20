@@ -192,8 +192,13 @@
     }
 
     /* LANDING */
+    .line {
+        overflow: hidden;
+    }
+
     .blue-line {
         padding-top: 18rem;
+        width: 100%;
     }
 
     .container1 {
