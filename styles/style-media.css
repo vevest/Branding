@@ -294,6 +294,11 @@
         padding: 0;
     }
 
+    .container5 h2 {
+        padding: 0 0 0 2rem;
+        padding-bottom: 1rem;
+    }
+
     .img4 {
         width: 100%;
         padding: 0;
@@ -308,25 +313,25 @@
 
     /* CONTACT */
     .container6 {
-        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
     }
 
     .container6 h2 {
-        padding: 0;
+        padding: 0 0 0 2rem;
+        padding-bottom: 1rem;
     }
-
     .container6 .bold  {
         font-size: 2.25rem;
+        padding-left: 2rem;
     }
 
     .paperplane {
-        width: 150%;
+        width: 120%;
         margin-top: 4rem;
         margin-left: -6rem;
-    }
-
-    .contact-button {
-        padding-top: 4rem;
     }
 }
 

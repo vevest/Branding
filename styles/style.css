@@ -259,7 +259,8 @@ footer p{
 }
 
 .img-scroll {
-    padding: 4rem 0 2rem 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     z-index: 22;
 }
 
@@ -396,21 +397,33 @@ div.img-scroll2 img {
 
 /* THE TEAM LANDING PAGE */
 .container5 {
-    padding: 6rem 8rem;
+    padding: 0 8rem 0 8rem;
     display: flex;
+    flex-direction: column;
+}
+
+.container5 h2 {
+    padding-left: 8rem;
+}
+
+.team-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .img4 {
-    width: 35rem;
+    width: 70%;
     object-fit: cover;
 }
 
 .overlay {
-    filter: opacity(0.7) drop-shadow(0 0 0 #F996D7);
+    filter: opacity(1) drop-shadow(0 0 0);
 }
 
 .overlay:hover {
-    filter: opacity(1) drop-shadow(0 0 0);
+    filter: opacity(0.7) drop-shadow(0 0 0 #F996D7);
 }
 
 .team {
@@ -421,28 +434,26 @@ div.img-scroll2 img {
 }
 
 .container5 .button {
-    text-align: right;
+    align-self: center;
     padding-top: 2rem;
 }
 
 /* CONTACT LANDING PAGE*/
-.container6 .contact  {
+.container6  {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-top: 6rem;
+    justify-content: center;
+    padding-top: 8rem;
 }
 
 .paperplane {
     width: 120%;
-    margin-top: 8rem;
+    margin-top: 4rem;
     margin-left: -12rem;
 }
 
-.contact-button {
-    display: flex;
-    justify-content: center;
+.container6 .button {
     z-index: 30;
 }
 
@@ -482,7 +493,6 @@ div.img-scroll2 img {
     position: absolute;
     width: 100%;
 }
-
 
 .grid_1-1-1{
     display: grid;
@@ -528,16 +538,21 @@ div.img-scroll2 img {
     display: inline-block;
   }
 
+.portrait {
+    height: 232px;
+    width: 232px;
+    object-fit: cover;
+}
+
 .overlay-text{
     height: 232px;
-    width: 230px;
+    width: 232px;
     opacity: 0;
     position: absolute;
-    top: 47.5%; 
-    left: 36.5%; 
-    transform: translate(-50%, -48%); 
+    top: 0;
+    left: 0;
     background-color: var(--pink); 
-    color: var(--grey); 
+    color: var(--white); 
     padding: 110px 20px; 
     font-size: 20px; 
     text-align: start;
@@ -545,7 +560,7 @@ div.img-scroll2 img {
 }
 
 .overlay-text:hover{
-    opacity: 90%;
+    opacity: 70%;
     transition: 0.5s;
 }
 
@@ -572,7 +587,6 @@ div.img-scroll2 img {
 }
 
 /* Service btn */
-
 .services1 {
     justify-content: center;
     text-align: center;
