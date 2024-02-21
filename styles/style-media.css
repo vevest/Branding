@@ -5,9 +5,10 @@
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
         line-height: 4rem;
         letter-spacing: .25rem;
+        text-align: center;
     }
 
     h2 {
@@ -193,8 +194,9 @@
 
     /* LANDING */
     .blue-line {
-        padding-top: 18rem;
+        margin-top: -20%;
         width: 100%;
+        height: 2350px;
     }
 
     .container1 {
