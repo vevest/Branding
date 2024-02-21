@@ -363,12 +363,18 @@ div.img-scroll2 img {
     position: relative;
     top: 0;
     transition: top ease 0.5s;
+    background-color: #111111;
 }
 
 .box:hover {
-    background-color: rgb(247,247,247, .7);
     border: none;
     top: -10px;
+    color: #111111;
+    background-image: linear-gradient(#f7f7f7, #F996D7);
+    opacity: 80%;
+}
+
+.box1:hover{
     color: #111111;
 }
 
@@ -392,7 +398,7 @@ div.img-scroll2 img {
 
 #service-btn:hover {
     background-color: #F996D7;
-    color: #111111;
+    color: white;
 }
 
 /* THE TEAM LANDING PAGE */
