@@ -26,8 +26,8 @@ body {
 
 .blue-line {
     position: absolute; /* placere den et fast sted på siden */
-    margin-top: -19rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
-    width: 75rem; /* størrelse på linjen */
+    margin-top: -14rem; /* hvor den kommer ind/starter fra toppen - idk det her er bare guess work*/
+    width: 100%; /* størrelse på linjen */
     z-index: -1;
 }
 /* BLUE LINE END */
@@ -220,7 +220,8 @@ footer p{
 .container2 {
     display: flex;
     padding-left: 8rem;
-    padding-top: 12rem;
+    padding-top: 14rem;
+    padding-bottom: 8rem;
 }
 
 .branding {
@@ -251,7 +252,7 @@ footer p{
 .container3 {
     display: flex;
     flex-direction: column;
-    padding: 6rem 0;
+    padding: 8rem 0;
 }
 
 .container3 h2 {
@@ -307,7 +308,7 @@ div.img-scroll2 img {
 
 /* SERVICES LANDING PAGE */
 .container4 {
-    padding: 6rem 0;
+    padding: 8rem 0;
 }
 
 .container4 h2 {
@@ -369,13 +370,7 @@ div.img-scroll2 img {
 .box:hover {
     border: none;
     top: -10px;
-    color: #111111;
     background-image: linear-gradient(#f7f7f7, #F996D7);
-    opacity: 80%;
-}
-
-.box1:hover{
-    color: #111111;
 }
 
 .box:hover > .service-btn {
@@ -454,13 +449,17 @@ div.img-scroll2 img {
 }
 
 .paperplane {
-    width: 120%;
+    width: 100%;
     margin-top: 4rem;
     margin-left: -12rem;
 }
 
 .container6 .button {
     z-index: 30;
+}
+
+.contact-line {
+    overflow: hidden;
 }
 
 /* About page*/
