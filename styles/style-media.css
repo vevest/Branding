@@ -359,12 +359,17 @@
         opacity: .5;
     }
 
-    /*CONTACT PAGE*/ /* ANDERS formlen skal være lige så bred som teksten */
+    /*CONTACT PAGE*/
     .contact-container {
         flex-direction: column;
         padding: 6rem 0 0 0;
         justify-content: center;
         align-items: center;
+    }
+
+    .contactform {
+        width: 100%;
+        padding: 2rem;
     }
 
     .contact h2 {
@@ -382,29 +387,29 @@
     
     input[type=text], textarea, select {
         width: 100%;
+        background-color: #333231;
     }
 
     input[type=submit] {
         width: 100%;
     }
 
-    /* SLIDE PAGE */
-    #slide .contact-container {
+    /*CONTACT SLIDE PAGE*/
+    .slide-line {
+        margin-top: -5rem;
+    }
+    
+    .slide-container {
         padding-top: 4rem;
-        padding-bottom: 4rem;
-        margin-top: 2rem;
+        margin-top: 0;
     }
 
-    #slide input[type=text], textarea, select {
-        width: 100%;
+    .slide .contactform {
+        padding-top: 0;
     }
 
-    #slide input[type=submit] {
-        width: 100%;
-    }
-
-    .contact-line {
-        margin-top: -6rem;
+    .slide input[type=text], textarea, select {
+        background-color: #f7f7f7;
     }
 }
 
