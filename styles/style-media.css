@@ -245,7 +245,7 @@
         margin-top: 5rem;
     }
 
-    /* PORTFOLIO */
+    /* PORTFOLIO LANDING */
     .container3 {
         padding: 8rem 0;
     }
@@ -258,7 +258,7 @@
         padding-top: 2rem;
     }
 
-    /* SERVICES */
+    /* SERVICES LANDING */
     .container4 {
         padding: 8rem 0;
         padding-top: 0;
@@ -284,9 +284,6 @@
     .box {
         justify-self: center;
         align-self: center;
-    }
-
-    .box {
         background-color: #F996D7;
     }
 
@@ -295,7 +292,7 @@
         color: #111111;
     }
 
-    /* TEAM */
+    /* TEAM LANDING */
     .container5 {
         display: flex;
         flex-direction: column;
@@ -319,7 +316,7 @@
         padding-top: 2rem;
     }
 
-    /* CONTACT */
+    /* CONTACT LANDING */
     .container6 {
         display: flex;
         flex-direction: column;
@@ -341,6 +338,145 @@
         width: 100%;
         margin-top: 4rem;
         margin-left: -6rem;
+    }
+
+    /* ABOUT PAGE */
+    .overskrift-about {
+    padding-top: 40%;
+    padding-left: 20%;
+    padding-bottom: 15rem;
+    }
+    
+    .speciel1{
+        font-size: 1rem;
+    }
+
+    .speciel2{
+        font-size: 2rem;
+    }
+
+    .container3-vid {
+    margin-top: 80%;
+    padding-bottom: 4rem;
+    }
+
+    .grid_1-1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+    padding-top: 30rem;
+    padding-bottom: 6rem;
+    align-items: center;
+    }
+
+    .about-box:hover {
+        top: 0;
+    }
+
+    #about-service-btn:active {
+        background-color: #2867e3;
+        border: #2867e3;
+    }
+
+    .bluebox{
+        padding: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+
+    .bluebox .serif {
+        font-size: 1rem;
+        padding-bottom: 0;
+    }
+
+    .bluebox .bold{
+        padding-bottom: 1rem;
+        font-size: 3rem;
+    }
+
+    .bluebox h3{
+        font-size: 1rem;
+    }
+
+    .bluebox p {
+        text-align: justify;
+        padding-bottom: 1rem;
+    }
+
+    /* SERVICES PAGE */
+    .service-header {
+        padding-top: 16rem;
+        padding-bottom: 14rem;
+        padding-left: 4rem;
+    }
+
+    .service-header .serif {
+        font-size: 1rem;
+    }
+
+    .service-header .bold {
+        font-size: 3rem;
+    }
+
+    .bundles-container {
+        padding: 0;
+        padding-top: 6rem;
+        padding-bottom: 0;
+    }
+
+    .bundles-container h2 {
+        padding-left: 2rem;
+    }
+
+    .bundles-container .serif {
+        font-size: 1rem;
+    }
+
+    .bundles-container .bold {
+        font-size: 1.75rem;
+    }
+
+    .service-bundles {
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+    }
+
+    .bundle {
+        width: 100%;
+    }
+
+    .bundle .bold {
+        font-size: 1.5rem;
+    }
+    
+    .bundle .serif {
+        font-size: .75rem;
+    }
+
+    .bundle:hover {
+        background-color: rgb(249,150,215, 70%);
+    }
+
+    .bundles-btn {
+        display: flex;
+        border-radius: 2rem;
+        padding: 0;
+        font-size: .75rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: .1rem;
+    }
+
+    .bundle:hover > .bundles-btn {
+        color: #111111;
+    }
+
+    .bundle:hover > .bundles-btn:hover {
+        color: #F996D7;
     }
 
     /* PORTFOLIO PAGE */
