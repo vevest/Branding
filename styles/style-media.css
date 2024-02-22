@@ -49,6 +49,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        /* margin-top: -8rem; ----- ved ikke hvad virker når vi launcher, pt virker dette på selve mobilen, men i preview på computer er det weird - hvis det ikke virker delete */ /* check blue-line margin too */
     }
 
     .header-logo {
@@ -193,7 +194,7 @@
 
     /* LANDING */
     .blue-line {
-        margin-top: 0;
+        margin-top: 0rem; /* ------ layout differences in mobile/laptop preview - change this if it doesn't work once we test launch */
         width: 100%;
     }
 
@@ -226,6 +227,10 @@
         align-self: center;
     }
 
+    .contact-cta {
+        place-self: center;
+    }
+
     .video1 {
         padding: 0;
         width: 100%;
@@ -239,6 +244,7 @@
         align-self: center;
         margin-top: 5rem;
     }
+
     /* PORTFOLIO */
     .container3 {
         padding: 8rem 0;
@@ -325,6 +331,7 @@
         padding: 0 0 0 2rem;
         padding-bottom: 1rem;
     }
+
     .container6 .bold  {
         font-size: 2.25rem;
         padding-left: 2rem;
@@ -352,7 +359,7 @@
         opacity: .5;
     }
 
-    /*CONTACT*/
+    /*CONTACT PAGE*/ /* ANDERS formlen skal være lige så bred som teksten */
     .contact-container {
         flex-direction: column;
         padding: 6rem 0 0 0;
@@ -379,6 +386,25 @@
 
     input[type=submit] {
         width: 100%;
+    }
+
+    /* SLIDE PAGE */
+    #slide .contact-container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        margin-top: 2rem;
+    }
+
+    #slide input[type=text], textarea, select {
+        width: 100%;
+    }
+
+    #slide input[type=submit] {
+        width: 100%;
+    }
+
+    .contact-line {
+        margin-top: -6rem;
     }
 }
 

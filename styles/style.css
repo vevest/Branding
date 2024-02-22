@@ -153,6 +153,10 @@ header {
     display: none; /* gemmer checkbox */
 }
 
+.contact-toggle {
+    display: none;
+}
+
 /* FOOTER */
 footer {
     display: grid;
@@ -543,7 +547,7 @@ div.img-scroll2 img {
     display: inline-block;
   }
 
-.portrait {
+.portrait { /* ANDERS pink overlay tekst skal ligge præcis over portrætterne */
     height: 232px;
     width: 232px;
     object-fit: cover;
@@ -757,4 +761,68 @@ input[type=submit]:hover {
 
 input[type=submit]:active {
     background-color: #2867e3;
+}
+
+/* SLIDE-IN CONTACT PAGE */ /* ANDERS HJÆLP OS MED AT FÅ DEN HER LYSERØDE KONTAKT DIV TIL AT SLIDE IND FRA HØJRE*/
+#slide {
+    background-color: #F996D7;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 8rem;
+}
+
+.exit {
+    z-index: 100;
+}
+
+.paperplane-bg {
+    z-index: 1;
+}
+
+.contact-line {
+    margin-top: 8rem;
+}
+
+#contact-container {
+    z-index: 10;
+}
+
+#slide .contact-container {
+    margin-top: -6rem;
+}
+
+#contactform {
+    z-index: 10;
+}
+
+#slide input[type=text], textarea, select {
+    background-color: #f7f7f7;
+    color: #111111;
+}
+
+#slide ::placeholder {
+    color: #999999;
+}
+
+#slide input[type=submit]:hover {
+    background-color: #2867e3;
+    cursor: pointer;
+}
+
+#slide input[type=submit]:active {
+    background-color: #183b81;
+}
+
+.fa-x {
+    font-size: 2rem;
+    color: #F7F7F7;
+    padding: 2rem;
+}
+
+.fa-x:hover {
+    color: #2867e3;
+}
+
+.fa-x:active {
+    color: #183b81;
 }
