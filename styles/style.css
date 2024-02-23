@@ -341,19 +341,20 @@ div.img-scroll2 img {
 }
 
 .box li {
-    padding: 1rem 2rem 0 2rem;
+    padding: 0.5rem 1.5rem 0 1rem;
     color: #F7F7F7;
     font-family: 'verdana';
-    font-size: .75rem;
+    font-size: 0.8rem;
     letter-spacing: 0;
     list-style-position: inside;
-    margin-right: 2.75rem;
+    margin-left: 0rem;
+    text-align: start;
 }
 
 .box {
-    width: 16.5rem;
-    height: 20rem;
-    border-radius: .5rem;
+    width: 18rem;
+    height: 24rem;
+    border-radius: .8rem;
     margin: 1.5rem;
     z-index: 20;
     border: #F996D7 solid 1px;
@@ -410,7 +411,7 @@ div.img-scroll2 img {
     color: white;
 }
 
-/* THE TEAM LANDING PAGE */
+/* THE TEAM ON LANDING PAGE */
 .container5 {
     padding: 0 8rem 0 8rem;
     display: flex;
@@ -421,37 +422,61 @@ div.img-scroll2 img {
     padding-left: 8rem;
 }
 
-.team-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.team-picture-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 2%;
 }
 
-.img4 {
-    width: 70%;
+.team-pic {
     object-fit: cover;
+    height: 450px;
+    width: 850px;
+    grid-column: 2/3;
+    position: relative;
+    display: inline-block;
+    border-radius: 0.5rem;
 }
 
-.overlay {
-    filter: opacity(1) drop-shadow(0 0 0);
+.overlay-text1{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    opacity: 0;
+    top: 494.2%;
+    left: 19.5%;
+    background-color: var(--pink); 
+    color: #111111; 
+    padding-top: 12%; 
+    font-size: 65px; 
+    text-align: center;
+    font-family: Francois;
+    font-weight: 700;
+    border-radius: 0.5rem;
+
 }
 
-.overlay:hover {
-    filter: opacity(0.7) drop-shadow(0 0 0 #F996D7);
+.overlay-text1 a{
+    color: #111111; 
+    position: relative;
+    font-size: 45px; 
+    text-align: center;
+    font-family: Francois;
+    font-weight: 700;
+    border-radius: 0.5rem;
+
 }
 
-.team {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    text-align: justify;
-}
+.overlay-text1:hover{
+    opacity: 80%;
+    transition: 0.5s;
+} 
 
-.container5 .button {
-    align-self: center;
-    padding-top: 2rem;
-}
+.overlay-text1 a:hover{
+    opacity: 100%;
+    transition: 0.5s;
+    color: white;
+} 
 
 /* CONTACT LANDING PAGE*/
 .container6  {
@@ -464,12 +489,13 @@ div.img-scroll2 img {
 
 .paperplane {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: -12rem;
 }
 
 .container6 .button {
     z-index: 30;
+    margin-top: 2%;
 }
 
 .contact-line {
