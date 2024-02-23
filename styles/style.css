@@ -663,11 +663,6 @@ div.img-scroll2 img {
     background-color: #111111;
 }
 
-.about-box:hover {
-    background-image: linear-gradient(#f7f7f7, #F996D7);
-    border: none;
-    top: -10px;
-}
 
 .about-service-btn {
     display: flex;
@@ -682,6 +677,13 @@ div.img-scroll2 img {
     letter-spacing: .1rem;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+.about-box:hover {
+    background-image: linear-gradient(#f7f7f7, #F996D7);
+    border: none;
+    top: -10px;
+    opacity: 90%;
 }
 
 #about-service-btn:hover {
