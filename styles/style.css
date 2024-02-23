@@ -743,6 +743,26 @@ div.img-scroll2 img {
 .service-header .bold {
     font-size: 6rem;
 }
+.offer-container{
+    padding-top: 2.5rem;
+    padding-bottom: 8rem;
+}
+
+.offer-header{
+    padding-left: 9%;
+}
+.offer-box{
+    background-color: #111111;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.offer-box h3{
+    padding-top: 1.5rem ;
+}
 
 .bundles-container {
     padding: 2rem 0;
@@ -807,21 +827,6 @@ div.img-scroll2 img {
     color: #F996D7;
 }
 
-.offer-header{
-    padding-left: 9%;
-}
-.offer-box{
-    background-color: #111111;
-    color: var(--white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-}
-
-.offer-box h3{
-    padding-top: 1.5rem ;
-}
 
 /* PORTFOLIO PAGE */
 .portfolio {
