@@ -327,13 +327,6 @@ div.img-scroll2 img {
     color: #111111;
 }
 
-.package {
-    font-family: 'francois';
-    color: #F7F7F7;
-    font-size: .5rem;
-    margin-bottom: .5rem;
-}
-
 .container4 h3 {
     font-family: 'Francois';
     color: #F7F7F7;
@@ -356,16 +349,25 @@ div.img-scroll2 img {
     height: 24rem;
     border-radius: .8rem;
     margin: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     z-index: 20;
     border: #F996D7 solid 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
     background-color: #111111;
+}
+
+.package {
+    font-family: 'francois';
+    color: #F7F7F7;
+    font-size: .5rem;
+    margin-bottom: .5rem;
 }
 
 .box:hover {
@@ -374,19 +376,16 @@ div.img-scroll2 img {
     background-image: linear-gradient(#f7f7f7, #F996D7);
 }
 
-.box:hover > p{
+.box:hover > .bundle-heading p {
     color: var(--grey);
 }
-
-.box:hover > h3{
+.box:hover > .bundle-heading h3 {
     color: var(--grey);
 }
 
 .box:hover > ul li {
     color: var(--grey);
 } 
-
-
 
 .box:hover > .service-btn {
     background-color: #F7F7F7;
@@ -453,7 +452,6 @@ div.img-scroll2 img {
     font-family: Francois;
     font-weight: 700;
     border-radius: 0.5rem;
-
 }
 
 .overlay-text1 a{
@@ -496,10 +494,6 @@ div.img-scroll2 img {
 .container6 .button {
     z-index: 30;
     margin-top: 2%;
-}
-
-.contact-line {
-    overflow: hidden;
 }
 
 /* About page*/

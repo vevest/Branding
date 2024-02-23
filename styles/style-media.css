@@ -284,12 +284,6 @@
     .box {
         justify-self: center;
         align-self: center;
-        background-color: #F996D7;
-    }
-
-    .service-btn {
-        background-color: #f7f7f7;
-        color: #111111;
     }
 
     /* TEAM LANDING */
@@ -304,11 +298,20 @@
         padding-bottom: 1rem;
     }
 
-    .img4 {
-        width: 100%;
+    .team-picture-container {
+        display: flex;
         padding: 0;
-        grid-row-start: 2;
-        grid-row-end: 3;
+    }
+    
+    .team-pic {
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    .overlay-text1{
+        display: none;
     }
 
     .container5 .button {
@@ -336,8 +339,8 @@
 
     .paperplane {
         width: 100%;
-        margin-top: 4rem;
         margin-left: -6rem;
+        padding-top: 2rem;
     }
 
     /* ABOUT PAGE */
