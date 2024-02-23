@@ -340,7 +340,7 @@ div.img-scroll2 img {
     font-size: 1.75rem;
 }
 
-.services li {
+.box li {
     padding: 1rem 2rem 0 2rem;
     color: #F7F7F7;
     font-family: 'verdana';
@@ -372,6 +372,20 @@ div.img-scroll2 img {
     top: -10px;
     background-image: linear-gradient(#f7f7f7, #F996D7);
 }
+
+.box:hover > p{
+    color: #111111;
+}
+
+.box:hover > h3{
+    color: #111111;
+}
+
+.box:hover > ul li {
+    color: #111111;
+} 
+
+
 
 .box:hover > .service-btn {
     background-color: #F7F7F7;
