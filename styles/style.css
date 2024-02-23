@@ -375,15 +375,15 @@ div.img-scroll2 img {
 }
 
 .box:hover > p{
-    color: #111111;
+    color: var(--grey);
 }
 
 .box:hover > h3{
-    color: #111111;
+    color: var(--grey);
 }
 
 .box:hover > ul li {
-    color: #111111;
+    color: var(--grey);
 } 
 
 
@@ -549,7 +549,7 @@ div.img-scroll2 img {
     padding-left: 14rem;
     padding-right: 14rem;
     padding-bottom: 10rem;
-    padding-top: 28rem;
+    padding-top: 35rem;
 }
 
 .grid_1-1-1 img{
@@ -598,7 +598,7 @@ div.img-scroll2 img {
 
 .navn{
     font-family: 'Lora';
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .jobtitel{
@@ -660,13 +660,13 @@ div.img-scroll2 img {
     transition: top ease 0.5s;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
+    background-color: #111111;
 }
 
 .about-box:hover {
-    background-color: rgb(247,247,247, .5);
+    background-image: linear-gradient(#f7f7f7, #F996D7);
     border: none;
     top: -10px;
-    color: #111111;
 }
 
 .about-service-btn {
@@ -686,7 +686,21 @@ div.img-scroll2 img {
 
 #about-service-btn:hover {
     background-color: #F996D7;
+    color: white;
+}
+
+.box11:hover > h3{
+    color: var(--grey);
+}
+
+.box11:hover > p{
+    color: var(--grey);
+}
+
+.about-box:hover > .about-service-btn{
+    background-color: var(--white);
     color: #111111;
+    border: none;
 }
 
 .bluebox{
