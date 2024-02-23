@@ -749,16 +749,15 @@ div.img-scroll2 img {
 }
 
 .bundles-container h2 {
-    padding-left: 8rem;
+    padding-left: 15rem;
 }
 
 .service-bundles {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: left;
+    align-items: center;
     text-align: left;
-    padding-left: 8rem;
     padding-top: 1rem;
     color: #111111;
 }
@@ -806,6 +805,22 @@ div.img-scroll2 img {
 
 .bundle:hover > .bundles-btn:hover {
     color: #F996D7;
+}
+
+.offer-header{
+    padding-left: 9%;
+}
+.offer-box{
+    background-color: #111111;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.offer-box h3{
+    padding-top: 1.5rem ;
 }
 
 /* PORTFOLIO PAGE */
