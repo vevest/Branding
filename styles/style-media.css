@@ -220,11 +220,13 @@
         text-align: justify;
         padding-right: 2rem;
         padding-left: 2rem;
+        padding-bottom: 2.5rem;
     }
 
     .branding .cta {
         font-size: 1rem;
         align-self: center;
+        margin-bottom: 2rem;
     }
 
     .contact-cta {
