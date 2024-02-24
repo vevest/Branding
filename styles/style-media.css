@@ -301,6 +301,7 @@
     .team-picture-container {
         display: flex;
         padding: 0;
+        position: relative;
     }
     
     .team-pic {
@@ -310,11 +311,13 @@
         border-radius: 0;
     }
     
-    .overlay-text1{
-        display: none;
+    .overlay-text1{ /* centrer tekst? */
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
     }
 
-    .container5 .button {
+    .container5 .button { /* skal måske fjernes, hvis vi ikke bruger < get to know us knap > under meet the team */
         text-align: center;
         padding-top: 2rem;
     }
@@ -328,7 +331,7 @@
     }
 
     .container6 h2 {
-        padding: 0 0 0 2rem;
+        padding: 2rem 2rem 0 2rem;
         padding-bottom: 1rem;
     }
 

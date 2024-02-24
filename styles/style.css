@@ -422,31 +422,29 @@ div.img-scroll2 img {
 }
 
 .team-picture-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .team-pic {
-    object-fit: cover;
-    height: 450px;
-    width: 850px;
-    grid-column: 2/3;
-    position: relative;
-    display: inline-block;
+    object-fit: fill;
+    height: 100%;
+    width: 70%;
     border-radius: 0.5rem;
 }
 
 .overlay-text1{
-    height: 450px;
-    width: 850px;
+    height: 100%;
+    width: 70%;
     position: absolute;
     opacity: 0;
-    top: 494.2%;
-    left: 19.5%;
+    top: 0;
+    left: 2;
     background-color: var(--pink); 
     color: #111111; 
-    padding-top: 12%; 
+    padding-top: 15%; 
     font-size: 65px; 
     text-align: center;
     font-family: Francois;
@@ -462,7 +460,6 @@ div.img-scroll2 img {
     font-family: Francois;
     font-weight: 700;
     border-radius: 0.5rem;
-
 }
 
 .overlay-text1:hover{
