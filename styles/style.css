@@ -532,8 +532,8 @@ div.img-scroll2 img {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
     row-gap: 2rem;
-    padding-left: 14rem;
-    padding-right: 14rem;
+    padding-left: 18%;
+    padding-right: 18%;
     padding-bottom: 10rem;
     padding-top: 35rem;
 }
