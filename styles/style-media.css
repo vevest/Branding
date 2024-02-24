@@ -1,4 +1,4 @@
-/*MOBIL*/
+/*---------------------------------------MOBIL-----------------------------------------*/
 @media only screen and (max-width: 1023px) {
     .cta {
         font-size: 1rem;
@@ -37,7 +37,7 @@
         font-family: 'Francois';
     }
 
-    /* header */
+    /*---------------------------------------- header----------------------------------------- */
     .topmenu {
         display: none;
     }
@@ -122,7 +122,7 @@
         color: #F996D7;
     }
 
-    /* FOOTER */
+    /* ---------------------------------------------FOOTER------------------------------------------ */
     footer {
         column-gap: 0;
         grid-template-rows: repeat(4, auto);
@@ -192,7 +192,7 @@
         font-size: 1.25rem;
     }
 
-    /* LANDING */
+    /*------------------------------------------ LANDING ---------------------------------------------*/
     .blue-line {
         margin-top: 0rem; /* ------ layout differences in mobile/laptop preview - change this if it doesn't work once we test launch */
         width: 100%;
@@ -247,7 +247,7 @@
         margin-top: 5rem;
     }
 
-    /* PORTFOLIO LANDING */
+    /*------------------------------------------- PORTFOLIO LANDING ------------------------------------*/
     .container3 {
         padding: 8rem 0;
     }
@@ -288,7 +288,7 @@
         align-self: center;
     }
 
-    /* TEAM LANDING */
+    /* ------------------------------------------TEAM LANDING---------------------------------------- */
     .container5 {
         display: flex;
         flex-direction: column;
@@ -304,6 +304,7 @@
         display: flex;
         padding: 0;
         position: relative;
+        margin-bottom: 5rem;
     }
     
     .team-pic {
@@ -317,6 +318,17 @@
         width: 100%;
         height: 100%;
         border-radius: 0;
+        padding-top: 23%; 
+        text-align: center;
+    }
+    .overlay-text1 a{
+        color: #111111; 
+        position: relative;
+        font-size: 25px; 
+        text-align: center;
+        font-family: Francois;
+        font-weight: 600;
+        border-radius: 0.5rem;
     }
 
     .container5 .button { /* skal måske fjernes, hvis vi ikke bruger < get to know us knap > under meet the team */
@@ -324,7 +336,7 @@
         padding-top: 2rem;
     }
 
-    /* CONTACT LANDING */
+    /* -------------------------------------------CONTACT LANDING----------------------------------- */
     .container6 {
         display: flex;
         flex-direction: column;
@@ -419,7 +431,7 @@
         padding-bottom: 1rem;
     }
 
-    /* SERVICES PAGE */
+    /* -------------------------------------------SERVICES PAGE---------------------------------------- */
     .service-header {
         padding-top: 16rem;
         padding-bottom: 14rem;
@@ -507,7 +519,7 @@
         color: #F996D7;
     }
 
-    /* PORTFOLIO PAGE */
+    /* ---------------------------------------- PORTFOLIO PAGE ---------------------------------------*/
     .portfolio {
         display: flex;
         flex-direction: column;        
@@ -519,7 +531,7 @@
         opacity: 1;
     }
 
-    /*CONTACT PAGE*/
+    /* ------------------------------------------CONTACT PAGE-----------------------------------------*/
     .contact-container {
         flex-direction: column;
         padding: 6rem 0 0 0;
@@ -554,7 +566,7 @@
         width: 100%;
     }
 
-    /*CONTACT SLIDE PAGE*/
+    /* ---------------------------------------CONTACT SLIDE PAGE-------------------------------------*/
     .slide-line {
         margin-top: -5rem;
     }
@@ -573,7 +585,7 @@
     }
 }
 
-/*IPAD*/
+/*-----------------------------IPAD-----------------------------------*/
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
     .portfolio {
         display: flex;
@@ -585,9 +597,34 @@
     .portfolio-text p{
         font-size: .75rem;
     }
+
+
+/* ----------------------------Team landing page ---------------------------*/
+    .overlay-text1{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: 2;
+        background-color: var(--pink); 
+        padding-top: 23%; 
+        text-align: center;
+    }
+
+    .overlay-text1 a{
+        color: #111111; 
+        position: relative;
+        font-size: 45px; 
+        text-align: center;
+        font-family: Francois;
+        font-weight: 700;
+        border-radius: 0.5rem;
+
+    }
 }
 
-/*DESKTOP*/
+/*-------------------------------DESKTOP------------------------------*/
 @media only screen and (min-width: 1024px) {
     .dropdown, .burgermenu {
         display: none; /* gemmer burgermenu */
