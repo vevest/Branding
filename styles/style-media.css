@@ -574,10 +574,14 @@
 /*IPAD*/
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
     .portfolio {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 6rem 6rem;
+        display: flex;
+        flex-direction: column;
+        padding: 8rem 8rem;
         justify-content: center;
+    }
+    
+    .portfolio-text p{
+        font-size: .75rem;
     }
 }
 
