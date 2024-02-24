@@ -18,7 +18,7 @@ body {
           linear-gradient(to bottom, rgb(249,150,215,20%) 1px, transparent 1px);
 }
 
-/* BLUE LINE START */
+/* ---------------------BLUE LINE START-------------------------- */
 .line {
     display: flex;
     justify-content: center; /* for at centrere den */
@@ -30,7 +30,7 @@ body {
     width: 100%; /* størrelse på linjen */
     z-index: -1;
 }
-/* BLUE LINE END */
+/* ----------------------BLUE LINE END-------------------------------- */
 
 .cta {
     background-color: #F7F7F7;
@@ -109,7 +109,7 @@ p {
     font-size: 2.5rem;
 }
 
-/* HEADER */
+/* ---------------------------------------HEADER -------------------------------------*/
 header {
     display: flex;
     justify-content: space-between;
@@ -153,7 +153,7 @@ header {
     display: none; /* gemmer checkbox */
 }
 
-/* FOOTER */
+/* ---------------------------------------FOOTER----------------------------------- */
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -205,7 +205,7 @@ footer p{
     font-size: 1.25rem;
 }
 
-/* LANDING */
+/* ------------------------------------------LANDING------------------------------------------- */
 .container1 {
     display: flex;
     justify-content: center;
@@ -216,7 +216,7 @@ footer p{
     background-color: #F7F7F7;
 }
 
-/* BRANDING LANDING */
+/* ---------------------------------------BRANDING LANDING---------------------------------------- */
 .container2 {
     display: flex;
     padding-left: 8rem;
@@ -248,7 +248,7 @@ footer p{
     margin-top: 10rem;
 }
 
-/* PORTFOLIO LANDING PAGE */
+/* -----------------------------------------PORTFOLIO LANDING PAGE-------------------------------------- */
 .container3 {
     display: flex;
     flex-direction: column;
@@ -306,7 +306,7 @@ div.img-scroll2 img {
     justify-content: center;
 }
 
-/* SERVICES LANDING PAGE */
+/* -----------------------------------------SERVICES LANDING PAGE----------------------------------- */
 .container4 {
     padding: 8rem 0;
 }
@@ -410,7 +410,7 @@ div.img-scroll2 img {
     color: white;
 }
 
-/* THE TEAM ON LANDING PAGE */
+/* ------------------------------------------THE TEAM ON LANDING PAGE------------------------------- */
 .container5 {
     padding: 0 8rem 0 8rem;
     display: flex;
@@ -443,19 +443,14 @@ div.img-scroll2 img {
     top: 0;
     left: 2;
     background-color: var(--pink); 
-    color: #111111; 
-    padding-top: 17%; 
-    font-size: 65px; 
+    padding-top: 21%; 
     text-align: center;
-    font-family: Francois;
-    font-weight: 700;
-    border-radius: 0.5rem;
 }
 
 .overlay-text1 a{
     color: #111111; 
     position: relative;
-    font-size: 45px; 
+    font-size: 58px; 
     text-align: center;
     font-family: Francois;
     font-weight: 700;
@@ -473,7 +468,7 @@ div.img-scroll2 img {
     color: white;
 } 
 
-/* CONTACT LANDING PAGE*/
+/* --------------------------------------CONTACT LANDING PAGE------------------------------- */
 .container6  {
     display: flex;
     flex-direction: column;
@@ -493,7 +488,7 @@ div.img-scroll2 img {
     margin-top: 2%;
 }
 
-/* About page*/
+/* ----------------------------------------------About page--------------------------------------- */
 .overskrift-about{
     display: flex;
     flex-direction: column;
@@ -718,7 +713,7 @@ div.img-scroll2 img {
     font-size: .75rem;
 }
 
-/* SERVICES PAGE */
+/* ------------------------------------------SERVICES PAGE------------------------------------- */
 .service-header {
     display: flex;
     flex-direction: column;
@@ -819,7 +814,7 @@ div.img-scroll2 img {
 }
 
 
-/* PORTFOLIO PAGE */
+/* ----------------------------------------------PORTFOLIO PAGE--------------------------------------- */
 .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -878,7 +873,7 @@ div.img-scroll2 img {
     transition: 0.5s;
 }
 
-/* CONTACT PAGE */
+/* ----------------------------------------------CONTACT PAGE---------------------------------- */
 .contact-container {
     display: flex;
     padding: 2rem 12rem;
@@ -942,7 +937,7 @@ input[type=submit]:active {
     background-color: #2867e3;
 }
 
-/* CONTACT SLIDE PAGE */
+/* -------------------------------------------CONTACT SLIDE PAGE------------------------------ */
 .slide {
     background-color: #F996D7;
 }
