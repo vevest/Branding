@@ -830,11 +830,52 @@ div.img-scroll2 img {
 .img5 {
     width: 100%;
     margin-bottom: -.22rem;
-    opacity: 1;
+    object-fit: fill;
 }
 
 .img5:hover {
-    opacity: .5;
+    opacity: 0.2;
+}
+
+.portfolio-container{
+    position: relative;
+    background-color: #F7F7F7;
+}
+
+.portfolio-text{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    font-family: 'Francois';
+    color: #111111;
+    padding-right: 2%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.portfolio-text p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #111111;
+}
+
+.portfolio-text .portfolio-overskrift{
+    font-size: 22.6px;
+    font-weight: 400;
+    font-family: 'Francois';
+    padding-bottom: 0.5rem;
+    color: #111111;
+}
+
+
+.portfolio-container:hover > .portfolio-text{
+    opacity: 100%;
+    transition: 0.5s;
 }
 
 /* CONTACT PAGE */
