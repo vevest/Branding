@@ -166,6 +166,14 @@ footer p{
     font-size: .6rem;
 }
 
+footer .serif {
+    font-size: .6rem;
+}
+
+.address {
+    font-weight: bold;
+}
+
 .footer-logo{
     width: 8rem;
 }
