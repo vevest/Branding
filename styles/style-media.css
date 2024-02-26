@@ -497,28 +497,6 @@
         font-size: .75rem;
     }
 
-    .bundle:hover {
-        background-color: rgb(249,150,215, 70%);
-    }
-
-    .bundles-btn {
-        display: flex;
-        border-radius: 2rem;
-        padding: 0;
-        font-size: .75rem;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        letter-spacing: .1rem;
-    }
-
-    .bundle:hover > .bundles-btn {
-        color: #111111;
-    }
-
-    .bundle:hover > .bundles-btn:hover {
-        color: #F996D7;
-    }
-
     /* ---------------------------------------- PORTFOLIO PAGE ---------------------------------------*/
     .portfolio {
         display: flex;
@@ -663,5 +641,9 @@
 @media only screen and (min-width: 1024px) {
     .dropdown, .burgermenu {
         display: none; /* gemmer burgermenu */
+    }
+
+    .grid_1-1-1 {
+        padding-left: 14rem;
     }
 }

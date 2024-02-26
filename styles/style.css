@@ -751,6 +751,7 @@ div.img-scroll2 img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 2rem;
 }
 
@@ -773,7 +774,7 @@ div.img-scroll2 img {
     align-items: center;
     text-align: left;
     padding-top: 1rem;
-    color: #111111;
+    background-color: #111111;
 }
 
 .bundle .serif {
@@ -797,10 +798,15 @@ div.img-scroll2 img {
     padding-top: 1rem;
     padding-bottom: 0;
     margin-bottom: 1rem;
+    top: 0;
+    position: relative;
+    transition: top ease 0.5s;
 }
 
 .bundle:hover {
-    background-color: rgb(249,150,215, 70%);
+    border: none;
+    background-image: linear-gradient(#f7f7f7, #F996D7);
+    top: -10px;
 }
 
 .bundles-btn {
@@ -814,11 +820,19 @@ div.img-scroll2 img {
 }
 
 .bundle:hover > .bundles-btn {
-    color: #111111;
+    color: var(--grey);
 }
 
 .bundle:hover > .bundles-btn:hover {
-    color: #F996D7;
+    color: var(--white);
+}
+
+/**/
+.bundle:hover > h3 {
+    color: var(--grey);
+}
+.bundle:hover > p {
+    color: var(--grey);
 }
 
 
