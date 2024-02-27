@@ -33,13 +33,20 @@ body {
 /* ----------------------BLUE LINE END-------------------------------- */
 
 .cta {
-    background-color: #F7F7F7;
-    padding: .5rem 1rem;
-    color: #111111;
-    border-radius: .5rem;
+    background-color: #111111;
+    padding: .75rem 1.75rem;
+    color: #f7f7f7;
+    border-radius: 2rem;
+    border: 1px solid #F996D7;
     width: fit-content;
-    font-family: "Lora";
-    font-size: 1.6rem;
+    font-family: "Francois";
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.branding .cta {
+    align-self: flex-end;
+    margin-right: 2rem;
 }
 
 .cta:hover {
@@ -49,6 +56,7 @@ body {
 
 .cta:active {
     background-color: #2867e3;
+    border: none;
 }
 
 .button {
@@ -238,8 +246,12 @@ footer .serif {
 }
 
 .branding p {
-    padding: 2rem 5rem 2rem 0rem;
+    padding: 2rem 5rem 0rem 0rem;
     max-width: 40rem;
+}
+
+.branding .cta {
+    margin-top: 2rem;
 }
 
 .video1 {
@@ -253,7 +265,7 @@ footer .serif {
     display: flex;
     flex-direction: column-reverse;
     padding-right: 8rem;
-    margin-top: 10rem;
+    margin-bottom: 4rem;
 }
 
 /* -----------------------------------------PORTFOLIO LANDING PAGE-------------------------------------- */
@@ -548,8 +560,8 @@ div.img-scroll2 img {
 
 .grid_1-1-1 img{
     object-fit: cover;
-    height: 230px;
-    width: 230px;
+    height: 232px;
+    width: 232px;
 
 }
 
@@ -565,14 +577,14 @@ div.img-scroll2 img {
   }
 
 .portrait {
-    height: 230px;
-    width: 230px;
+    height: 232px;
+    width: 232px;
     object-fit: cover;
 }
 
 .overlay-text{
-    height: 230px;
-    width: 230px;
+    height: 232px;
+    width: 232px;
     opacity: 0;
     position: absolute;
     top: 0;
@@ -645,8 +657,8 @@ div.img-scroll2 img {
 .about-box {
     margin-top: 2px;
     margin-left: 2px;
-    width: 230px;
-    height: 230px;
+    width: 232px;
+    height: 232px;
     border: #F996D7 solid 1px;
     border-radius: 0;
     position: relative;
@@ -656,7 +668,6 @@ div.img-scroll2 img {
     padding-bottom: 2rem;
     background-color: #111111;
 }
-
 
 .about-service-btn {
     display: flex;
@@ -720,6 +731,39 @@ div.img-scroll2 img {
 .bluebox p {
     font-size: .75rem;
 }
+
+.manifesto h2 {
+    padding-left: 8rem;
+}
+
+.manifesto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.manifesto-quotes {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.manifesto-quotes p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'francois';
+}
+
+.manifesto-quotes p:nth-of-type(odd) {
+    background-color: #F7F7F7;
+    color: #111111;
+  }
+
+.manifesto-quotes p:nth-of-type(even) {
+    background-color: #111111;
+    color: #F7F7F7;
+  }
 
 /* ------------------------------------------SERVICES PAGE------------------------------------- */
 .service-header {
@@ -827,14 +871,12 @@ div.img-scroll2 img {
     color: var(--white);
 }
 
-/**/
 .bundle:hover > h3 {
     color: var(--grey);
 }
 .bundle:hover > p {
     color: var(--grey);
 }
-
 
 /* ----------------------------------------------PORTFOLIO PAGE--------------------------------------- */
 .portfolio {
