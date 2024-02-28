@@ -263,9 +263,9 @@ footer .serif {
 
 .container2-vid {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding-right: 8rem;
-    margin-bottom: 4rem;
+    margin-top: 20rem;
 }
 
 /* -----------------------------------------PORTFOLIO LANDING PAGE-------------------------------------- */
@@ -509,6 +509,11 @@ div.img-scroll2 img {
 }
 
 /* ----------------------------------------------About page--------------------------------------- */
+.video-background {
+    display: flex;
+    padding-bottom: 30rem;
+}
+
 .overskrift-about{
     display: flex;
     flex-direction: column;
@@ -516,7 +521,6 @@ div.img-scroll2 img {
     text-align: left;
     padding-top: 10%;
     padding-left: 20%;
-    padding-bottom: 15rem;
     color: var(--blue);
     z-index: 99;
 }
@@ -536,7 +540,7 @@ div.img-scroll2 img {
 .video2 {
     width: 100%;
     object-fit: cover;
-    filter: grayscale(100%);
+/*    filter: grayscale(100%); */
     opacity: 70%;
 }
 

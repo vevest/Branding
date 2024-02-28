@@ -239,13 +239,14 @@
         width: 100%;
         justify-self: center;
         align-self: center;
+        object-fit: contain;
     }
 
     .container2-vid {
         padding: 0;
         justify-self: center;
         align-self: center;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     /*------------------------------------------- PORTFOLIO LANDING ------------------------------------*/
@@ -362,6 +363,10 @@
     }
 
     /* ABOUT PAGE */
+    .video-background {
+        padding-bottom: 2rem;
+    }
+
     .overskrift-about {
     padding-top: 12rem;
     padding-left: 2rem;
