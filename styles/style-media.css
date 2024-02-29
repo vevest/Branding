@@ -193,27 +193,33 @@
     }
 
     /*------------------------------------------ LANDING ---------------------------------------------*/
-    .blue-line {
-        margin-top: 0rem; /* ------ layout differences in mobile/laptop preview - change this if it doesn't work once we test launch */
-        width: 100%;
+    .line-landing {
+        padding-top: 25rem;
     }
-
-    .container1 {
-        margin-top: 8rem;
-        padding: 8rem 0 14rem 0;
-    }
-
+    
     .container2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 14rem;
+    }
+
+    .container2 h2 {
+        display: flex;
+        font-size: 1.25rem;
+        padding-left: 2rem;
+    }
+
+    .branding-heading {
+        padding: 0;
+    }
+
+    .branding {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0;
-    }
-
-    .branding h2 {
-        font-size: 1.25rem;
-        padding-left: 2rem;
     }
 
     .branding p {
@@ -223,11 +229,13 @@
         padding-bottom: 0;
     }
 
-    .branding .cta {
+    .branding-btn {
+        display: flex;
         font-size: .9rem;
         align-self: center;
         margin-bottom: 2rem;
         margin-right: 0;
+        margin-top: 2rem;
     }
 
     .contact-cta {
@@ -362,23 +370,28 @@
         padding-top: 2rem;
     }
 
-    /* ABOUT PAGE */
+    /* -----------------------------------------ABOUT PAGE---------------------------------------- */
     .video-background {
-        padding-bottom: 2rem;
+        padding-bottom: 0rem;
     }
 
     .overskrift-about {
-        padding-top: 12rem;
+        padding-top: 8rem;
         padding-left: 2rem;
-        padding-bottom: 15rem;
     }
     
     .speciel1{
         font-size: 1.5rem;
+        color: #f7f7f7;
     }
 
     .speciel2{
         font-size: 3rem;
+        color: #f7f7f7;
+    }
+
+    .dot {
+        color: #2867e3;
     }
 
     .video2 {
@@ -386,9 +399,13 @@
         height: 650px;
     }
 
+    .container3-vid-mobile {
+        top: 0;
+        padding-bottom: 0rem;
+    }
+
     .container3-vid {
-        margin-top: 0;
-        padding-bottom: 4rem;
+        display: none;
     }
 
     .grid_1-1-1{
@@ -396,9 +413,9 @@
         flex-direction: column;
         gap: 1rem;
         padding: 0;
-        padding-top: 34rem;
         padding-bottom: 6rem;
         align-items: center;
+        margin-top: -5rem;
     }
 
     .about-box:hover {
@@ -456,10 +473,15 @@
     }
 
     /* -------------------------------------------SERVICES PAGE---------------------------------------- */
+    .service-line {
+        margin-top: 3rem;
+        position: absolute;
+    }
+    
     .service-header {
-        padding-top: 16rem;
-        padding-bottom: 14rem;
-        padding-left: 4rem;
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+        padding-left: 2rem;
     }
 
     .service-header .serif {
@@ -569,13 +591,95 @@
         width: 100%;
     }
 
+/* -------------------------------------------ULTIMATE GUIDE PAGE----------------------------- */
+.guide-heading {
+    padding-left: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.guide-heading .serif {
+    font-size: 1rem;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.guide-img {
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.article-overview {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.article-overview h3 {
+    font-size: .75rem;
+}
+
+.article-overview li {
+    font-size: .65rem;
+}
+
+.article-content {
+    background-color: #111111;
+    padding: 3rem;
+    margin: 0;
+}
+
+.article-content h3 {
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.article-content .serif {
+    font-size: .75rem;
+}
+
+.article-content p {
+    font-size: .5rem;
+}
+
+.tour-guide {
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.tour-guide h2 {
+    padding: 0;
+}
+
+.tour-guide p {
+    padding: 2rem;
+    text-align: justify;
+}
+
+.button-line {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.button-line .cta {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.tour-guide .paperplane {
+    margin-top: 0;
+    padding-top: 0;
+}
+
     /* ---------------------------------------CONTACT SLIDE PAGE-------------------------------------*/
-    .slide-line {
-        margin-top: -5rem;
-    }
-    
+
     .slide-container {
-        padding-top: 4rem;
+        padding-top: 2rem;
         margin-top: 0;
     }
 
@@ -664,5 +768,13 @@
 
     .grid_1-1-1 {
         padding-left: 14rem;
+    }
+
+    .overskrift-about {
+        display: none;
+    }
+
+    .container3-vid-mobile {
+        display: none;
     }
 }
