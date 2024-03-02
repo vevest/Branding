@@ -1,0 +1,46 @@
+/*Vi kalder på vores partial side*/
+@use 'partials';
+
+
+/* NESTING bruges i header og footeren for at bedre overblik og færre linjer kode */
+.topmenu-links {
+    @include partials.topmenu;
+
+    a{
+        padding: 2rem;
+        color: partials.$white;
+    }
+
+    :hover{
+        color:partials.$pink;
+    }
+
+    :active{
+        color: partials.$blue;
+    }
+
+    .active{
+        color: partials.$pink;
+    }
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    background-color: partials.$black;
+    margin-top: 6rem;
+
+    p{
+        font-size: .6rem;
+    }
+
+    .serif{
+        font-size: .6rem;
+    }
+
+}
+
+

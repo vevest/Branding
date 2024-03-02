@@ -114,7 +114,9 @@ header {
     z-index: 100;
 }
 
-.topmenu-links {
+/*flyttet over til SCSS*/
+
+/* .topmenu-links {
     display: flex;
     list-style-type: none;
     font-family: "Francois";
@@ -136,14 +138,17 @@ header {
 
 .topmenu-links .active {
     color: #F996D7;
-}
+} */
 
 .menu-toggle {
     display: none; /* gemmer checkbox */
 }
 
 /* ---------------------------------------FOOTER----------------------------------- */
-footer {
+
+/*flyttet over til SCSS*/
+
+/* footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -157,7 +162,7 @@ footer p{
 
 footer .serif {
     font-size: .6rem;
-}
+} */
 
 .address {
     font-weight: bold;
