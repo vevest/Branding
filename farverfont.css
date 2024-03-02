@@ -17,3 +17,7 @@
     src: url(Lora/static/Lora-SemiBoldItalic.ttf);
 }
 
+@font-face {
+    font-family: "Source Code";
+    src: url(Source_Code/SourceCodePro-Medium.ttf);
+}

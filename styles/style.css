@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: Verdana;
+    font-family: "Source Code";
     background-color: #111111;
     color: #F7F7F7;
     letter-spacing: 0.2rem;
@@ -84,7 +84,7 @@ h2 {
 }
 
 p {
-    font-family: Verdana, sans-serif;
+    font-family: "Source Code";
     font-size: 1rem;
     letter-spacing: 2%;
 }
@@ -359,7 +359,7 @@ div.img-scroll2 img {
 .box li {
     padding: 0.5rem 1.5rem 0 1rem;
     color: #F7F7F7;
-    font-family: 'verdana';
+    font-family: "Source Code";
     font-size: 0.8rem;
     letter-spacing: 0;
     list-style-position: inside;
@@ -619,12 +619,12 @@ div.img-scroll2 img {
 
 .email{
     font-size: 13px;
-    font-family: 'Verdana';
+    font-family: 'Source Code';
 }
 
 .tlf{
     font-size: 13px;
-    font-family: 'Verdana';
+    font-family: 'Source Code';
 }
 
 .services1 {
@@ -928,7 +928,7 @@ div.img-scroll2 img {
 
 .portfolio-text p{
     font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Source Code";
     color: #111111;
 }
 
@@ -981,7 +981,7 @@ input[type=text], textarea, select {
     color: #dfdbd5;
     border: none;
     width: 24rem;
-    font-family: Verdana;
+    font-family: "Source Code";
     letter-spacing: .125rem;
 }
 
@@ -996,7 +996,7 @@ input[type=text], textarea, select:focus {
 
 ::placeholder {
     color: #dfdbd5;
-    font-family: Verdana;
+    font-family: "Source Code";
     font-style: italic;
     font-size: .8rem;
 }
@@ -1008,7 +1008,7 @@ input[type=submit] {
     background-color: #F7F7F7;
     border: none;
     color: #111111;
-    font-family: "lora";
+    font-family: "francois";
     font-size: 1.6rem;
 }
 
