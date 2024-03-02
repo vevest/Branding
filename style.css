@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*Vi kalder på vores partial side*/
+/* VARIABLER vi har lavet vores farver til variabler*/
+/*MIXINS vi laver mixin på topmenu da den skal genbruges til alle siderne*/
+/* NESTING bruges i header og footeren for at bedre overblik og færre linjer kode */
+.topmenu-links {
+  display: flex;
+  list-style-type: none;
+  font-family: "Francois";
+  font-size: 1rem;
+}
+.topmenu-links a {
+  padding: 2rem;
+  color: #f7f7f7;
+}
+.topmenu-links :hover {
+  color: #F996D7;
+}
+.topmenu-links :active {
+  color: #2052B6;
+}
+.topmenu-links .active {
+  color: #F996D7;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  background-color: #111111;
+  margin-top: 6rem;
+}
+footer p {
+  font-size: 0.6rem;
+}
+footer .serif {
+  font-size: 0.6rem;
+}/*# sourceMappingURL=style.css.map */
