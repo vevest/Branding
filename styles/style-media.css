@@ -166,6 +166,12 @@
         padding-left: .5rem;
     }
 
+    .footer-pages {
+        font-size: .75rem;
+        letter-spacing: 0;
+        font-family: 'francois';
+    }
+
     .section4 {
         grid-column-start: 2;
         grid-column-end: 4;
@@ -633,16 +639,18 @@
 }
 
 .article-content h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding-top: 1rem;
+    color: #F996D7;
 }
 
 .article-content .serif {
-    font-size: .75rem;
+    font-size: 1rem;
+    color: #F996D7;
 }
 
 .article-content p {
-    font-size: .5rem;
+    font-size: .75rem;
 }
 
 .tour-guide {
@@ -690,6 +698,20 @@
     .slide input[type=text], textarea, select {
         background-color: #f7f7f7;
     }
+}
+
+/* ---------------------------------------------------FAQs--------------------------*/
+
+.faqs-heading {
+    padding-left: .5rem;
+}
+
+.faqs-heading .serif {
+    font-size: 1.25rem;
+}
+
+.faqs-heading .bold {
+    font-size: 4rem;
 }
 
 /*-----------------------------IPAD-----------------------------------*/

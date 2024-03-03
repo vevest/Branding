@@ -190,6 +190,14 @@ footer .serif {
     justify-self: right;
 }
 
+.footer-pages {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: .75rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
 .section4 {
     grid-column: 1;
     justify-self: left;
@@ -1107,17 +1115,19 @@ input[type=submit]:active {
 
 .article-content h3 {
     padding-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
+    color: #F996D7;
 }
 
 .article-content .serif {
-    font-size: 1rem;
+    font-size: 1.25rem;
     text-transform: lowercase;
+    color: #F996D7;
 }
 
 .article-content p {
-    font-size: .75rem;
+    font-size: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -1196,4 +1206,11 @@ input[type=submit]:active {
 
 .slide input[type=submit]:active {
     background-color: #183c85;
+}
+
+/* -------------------------------------------------- FAQs ---------------------------------------- */
+.faqs-heading {
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
 }
