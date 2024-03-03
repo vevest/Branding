@@ -1048,7 +1048,7 @@ input[type=submit]:active {
     grid-row-end: 3;
 }
 
-.mon {
+.fri {
     grid-row-start: 3;
     grid-row-end: 4;
 }
