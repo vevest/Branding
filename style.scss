@@ -43,4 +43,98 @@ footer {
 
 }
 
+.pink-box{
+    h3{
+        background-color: partials.$pink;
+        padding: 1.5rem;
+        width: 70%;
+        margin: auto;
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        font-size: 1.5rem;
+    }
+    p{
+        background-color: partials.$pink;
+        opacity: 85%;
+        padding: 1.5rem;
+        width: 70%;
+        margin: auto;
+        border-bottom-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+        font-size: 1rem;
+    }
+}
 
+.faqs{
+    background-color: partials.$black;
+    width: 70%;
+    margin: 0.75rem auto 0.75rem auto;
+
+    .faq-box{
+        padding: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .bundle:hover{
+        background-image: linear-gradient(partials.$pink, partials.$pink);
+    }
+
+    .bundle:hover >h3{
+        color: partials.$white;
+    }
+}
+
+
+
+// -----------------------MOBIL VERSION-----------------------------
+
+@media only screen and (max-width: 1023px){
+
+    .pink-box{
+        h3{
+            width: 80%;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        p{
+            width: 80%;
+            padding: 1rem;
+            text-align:left;
+        }
+
+        .serif{
+            font-size: 0.75rem;
+        }
+    }
+
+
+    .faqs{
+        padding: 0;
+        width: 80%;
+
+        .faq-box{
+            padding: 1rem;
+        }
+
+        .bold{
+            font-size: 1rem;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

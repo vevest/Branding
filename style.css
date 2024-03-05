@@ -35,4 +35,68 @@ footer p {
 }
 footer .serif {
   font-size: 0.6rem;
+}
+
+.pink-box h3 {
+  background-color: #F996D7;
+  padding: 1.5rem;
+  width: 70%;
+  margin: auto;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+.pink-box p {
+  background-color: #F996D7;
+  opacity: 85%;
+  padding: 1.5rem;
+  width: 70%;
+  margin: auto;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.faqs {
+  background-color: #111111;
+  width: 70%;
+  margin: 0.75rem auto 0.75rem auto;
+}
+.faqs .faq-box {
+  padding: 1.5rem;
+}
+.faqs h3 {
+  font-size: 1.5rem;
+}
+.faqs .bundle:hover {
+  background-image: linear-gradient(#F996D7, #F996D7);
+}
+.faqs .bundle:hover > h3 {
+  color: #f7f7f7;
+}
+
+@media only screen and (max-width: 1023px) {
+  .pink-box h3 {
+    width: 80%;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .pink-box p {
+    width: 80%;
+    padding: 1rem;
+    text-align: left;
+  }
+  .pink-box .serif {
+    font-size: 0.75rem;
+  }
+  .faqs {
+    padding: 0;
+    width: 80%;
+  }
+  .faqs .faq-box {
+    padding: 1rem;
+  }
+  .faqs .bold {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
