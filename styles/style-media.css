@@ -211,6 +211,10 @@
         width: 100%;
     }
 
+    #container2{
+        padding-top: 0;
+    }
+
     /*------------------------------------------ LANDING ---------------------------------------------*/
     .line-landing {
         padding-top: 25rem;
@@ -729,7 +733,7 @@
 }
 
 /*-----------------------------IPAD-----------------------------------*/
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
     .portfolio {
         display: flex;
         flex-direction: column;
@@ -741,9 +745,22 @@
         font-size: .75rem;
     }
 
+   
 
-    .container2{
-        padding-top: 26rem;
+    .blue-line-heading {
+        position: absolute; /* placere den et fast sted på siden */
+        width: 100%; /* størrelse på linjen */
+        top: -2rem;
+        z-index: -1;
+        display: none;
+    }
+    
+    .blue-line-mobil{
+        display:none;
+    }
+
+    #container2{
+        padding-top: 0;
     }
     
 
@@ -802,7 +819,7 @@
 }
 
 /*-------------------------------DESKTOP------------------------------*/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1026px) {
     .dropdown, .burgermenu {
         display: none; /* gemmer burgermenu */
     }
