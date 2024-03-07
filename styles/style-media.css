@@ -250,7 +250,7 @@
     }
 
     .branding p {
-        text-align: justify;
+        
         padding-right: 2rem;
         padding-left: 2rem;
         padding-bottom: 0;
@@ -464,7 +464,12 @@
     }
 
     .bluebox .serif {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding-bottom: .5;
+    }
+
+    .bluebox :first-child{
         padding-bottom: 0;
     }
 
@@ -473,12 +478,8 @@
         font-size: 3rem;
     }
 
-    .bluebox h3{
-        font-size: 1rem;
-    }
-
     .bluebox p {
-        text-align: justify;
+
         padding-bottom: 1rem;
     }
 
