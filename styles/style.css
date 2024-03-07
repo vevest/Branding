@@ -880,7 +880,7 @@ div.img-scroll2 img {
 
 .bundle:hover {
     border: none;
-    background-image: linear-gradient(#f7f7f7, #F996D7);
+    background-image: linear-gradient(#F996D7, #F996D7);
     top: -10px;
 }
 
@@ -929,7 +929,7 @@ div.img-scroll2 img {
 
 .portfolio-container{
     position: relative;
-    background-color: #F7F7F7;
+    background-color: var(--black);
 }
 
 .portfolio-text{
@@ -940,7 +940,7 @@ div.img-scroll2 img {
     left: 0;
     font-size: 25px;
     font-family: 'Francois';
-    color: #111111;
+    color: var(--white);
     padding-right: 2%;
     margin-top: 3%;
     display: flex;
@@ -951,7 +951,7 @@ div.img-scroll2 img {
 .portfolio-text p{
     font-size: 14px;
     font-family: Verdana;
-    color: #111111;
+    color: var(--white);
 }
 
 .portfolio-text .portfolio-overskrift{
@@ -959,7 +959,7 @@ div.img-scroll2 img {
     font-weight: 400;
     font-family: 'Francois';
     padding-bottom: 0.5rem;
-    color: #111111;
+    color: var(--white);
 }
 
 
