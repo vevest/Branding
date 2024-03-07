@@ -205,6 +205,10 @@
         z-index: -1;
         display: none;
     }
+
+    .blue-line-ipad{
+        display: none;
+    }
     
     .blue-line-mobil{
         display:initial;
@@ -733,7 +737,7 @@
 }
 
 /*-----------------------------IPAD-----------------------------------*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1025px) {
     .portfolio {
         display: flex;
         flex-direction: column;
@@ -743,6 +747,20 @@
     
     .portfolio-text p{
         font-size: .75rem;
+    }
+
+    .container3-vid{
+        display: none;
+    }
+
+    .video-background{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .grid_1-1-1{
+        padding-top: 0;
+        margin-top: -35rem;
     }
 
    
@@ -757,6 +775,11 @@
     
     .blue-line-mobil{
         display:none;
+    }
+
+    .blue-line-ipad{
+        display: block;
+        width: 100%;
     }
 
     #container2{
