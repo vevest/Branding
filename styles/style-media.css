@@ -198,6 +198,19 @@
         font-size: 1.25rem;
     }
 
+    .blue-line-heading {
+        position: absolute; /* placere den et fast sted på siden */
+        width: 100%; /* størrelse på linjen */
+        top: -2rem;
+        z-index: -1;
+        display: none;
+    }
+    
+    .blue-line-mobil{
+        display:initial;
+        width: 100%;
+    }
+
     /*------------------------------------------ LANDING ---------------------------------------------*/
     .line-landing {
         padding-top: 25rem;

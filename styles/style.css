@@ -224,6 +224,10 @@ footer .serif {
     z-index: -1;
 }
 
+.blue-line-mobil{
+    display: none;
+}
+
 .line-landing {
     width: 100%;
     padding-top: 60rem;
