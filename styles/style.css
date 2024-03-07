@@ -812,6 +812,7 @@ div.img-scroll2 img {
 .service-header .bold {
     font-size: 6rem;
 }
+
 .offer-container{
     padding-top: 2.5rem;
     padding-bottom: 8rem;
@@ -820,6 +821,7 @@ div.img-scroll2 img {
 .offer-header{
     padding-left: 9%;
 }
+
 .offer-box{
     background-color: #111111;
     color: var(--white);
