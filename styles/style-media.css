@@ -49,7 +49,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* margin-top: -8rem; ----- ved ikke hvad virker når vi launcher, pt virker dette på selve mobilen, men i preview på computer er det weird - hvis det ikke virker delete */ /* check blue-line margin too */
     }
 
     .header-logo {
@@ -75,18 +74,18 @@
     }
 
     .dropdown {
-    background-color: #111111;
-    position: absolute;
-    top: 0%; /* nav menu dropdown position i forhold til header, 0% er top af header, 100% er bunden af header */
-    left: 0%;
-    z-index: 99;
-    padding: 1rem;
-    padding-top: 6rem;
-    border-bottom: 1px solid #F996D7;
-    width: 100%;
-    opacity: 0; /* Usynlig indtil aktiveret */
-    visibility: hidden; /* Usynlig indtil aktiveret */
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Transition for opacity og visibility */
+        background-color: #111111;
+        position: absolute;
+        top: 0%; /* nav menu dropdown position i forhold til header, 0% er top af header, 100% er bunden af header */
+        left: 0%;
+        z-index: 99;
+        padding: 1rem;
+        padding-top: 6rem;
+        border-bottom: 1px solid #F996D7;
+        width: 100%;
+        opacity: 0; /* Usynlig indtil aktiveret */
+        visibility: hidden; /* Usynlig indtil aktiveret */
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Transition for opacity og visibility */
     }
 
     .menu-toggle:checked + .dropdown {
@@ -250,7 +249,6 @@
     }
 
     .branding p {
-        
         padding-right: 2rem;
         padding-left: 2rem;
         padding-bottom: 0;
